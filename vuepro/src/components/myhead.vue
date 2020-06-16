@@ -122,10 +122,10 @@
 		background: #fff;
 		.headtop{
 			background: #f5f5f5;
-			font-size: 4px;
+			font-size: 12px;
 			display: flex;
 			justify-content: space-between;
-			padding: 2.5px 30px;
+			padding: 10px 60px;
 			.hdrightbox{
 				>span{
 					display: inline-block;
@@ -139,7 +139,7 @@
 					a{
 						color: #49bbef;
 						text-decoration: none;
-						margin: 0 1px;
+						margin: 0 3px;
 					}
 				}
 				.order{
@@ -152,7 +152,7 @@
 			}
 		}
 		.headmid{
-			padding: 2.5px 30px;
+			padding: 20px 60px;
 			display: flex;
 			justify-content: space-between;
 			/*align-content: space-around;*/
@@ -161,44 +161,45 @@
 				
 				width: 180px;
 				height: 80px;
-				 zoom: 0.4;
+				 /*zoom: 0.4;*/
 				 background: url(/img/product-list-v1-9.404cb190.png) 0px 0px no-repeat;
 			}
 			.headsearch{
-				width: 200px;
-				height:15px;
-				border: 1px solid #009fe8 ;
-				border-radius: 15px;
+				width: 500px;
+				height:40px;
+				border: 3px solid #009fe8 ;
+				border-radius: 25px;
 				margin: auto 0;
 				position: relative;
 				.searchinput{
-					width: 150px;
-					height: 12px;
+					width: 350px;
+					height: 38px;
 					outline: none;
-					font-size: 5px;
+					font-size: 12px;
 					position: absolute;
-					border-radius: 15px;
+					border-radius: 18px;
 					border: none;
-					left: 0;
-					top: 2px;
+					left:10px;
+					top: 0px;
 					text-indent: 5px;
 				}
 				.searchbtn{
 					position: absolute;
-					right: 0;
-					height: 17px;
-					width: 23px;
+					right: -2px;
+					height: 40px;
+					width: 100px;
 					background: #009fe8;
 					color: #fff;
 					border: none;
-					border-radius:15px ;
+					border-radius:20px ;
 					font-size: 5px;
-					top: -1px;
+					top: 0px;
 				}
 				.list{
 					position: absolute;
-					bottom: -8px;
-					font-size: 2px;
+					bottom: -20px;
+					font-size: 12px;
+					left: 10px;
 					span{
 						display: inline-block;
 						margin: 0px 3px;
@@ -208,32 +209,34 @@
 			}
 			.shopp{
 				position: relative;
+				margin: auto 0;
 				i{
 					position: absolute;
-					top: 10px;
+					top: 12px;
 					left: 5px;
 					color: #009fe8;
-					font-size: 7px;
+					font-size: 14px;
 				}
 			}
 			.shopbtn{
-				font-size: 5px;
+				font-size: 12px;
 				background: #fff;
-				padding: 3px 14px;
-				border: 1px solid #009fe8;
-				border-radius: 10px;
+				padding: 10px 25px;
+				border: 2px solid #009fe8;
+				border-radius: 20px;
 			}
 		}
 		.nav_1{
-			padding: 2.5px 30px;
+			z-index: 20;
+			padding: 30px 60px;
 			list-style: none;
 			display: flex;
-			font-size: 5px;
+			font-size: 14px;
 			>li{
 				/*border:1px solid #009fe8;*/
-				width: 50px;
+				width: 150px;
 				text-align: center;
-				line-height: 15px;
+				line-height: 40px;
 			}
 			/*li:nth-of-type(1):hover{
 				.nav_2{
@@ -241,32 +244,36 @@
 				}
 			}*/
 			>li:nth-of-type(1){
-				width: 80px;
+				width: 200px;
 				text-align: left;
-				text-indent: 14px;
+				text-indent: 20px;
 				background: #009fe8;
 				color: #fff;
 				position: relative;
 				
 				
 				.nav_2{
-					
+					z-index: 20;
 					position:absolute;
-					top:15px;
+					top:50px;
 					left:0;
 					
 					.navlist{
-						width: 80px;
-						line-height: 20px;
+						width: 200px;
+						line-height: 40px;
 						background: #ffffff;
 						color: black;
 						.left{
 							position: relative;
-							line-height: 20px;
+							line-height: 50px;
+							width: 200px;
+							.title{
+								margin: 0 25px;
+							}
 							.iconfont{
-								font-size: 5px;
+								font-size: 16px;
 								position: absolute;
-								left: -8px;
+								left: 0px;
 							}
 							.el{
 								position: absolute;

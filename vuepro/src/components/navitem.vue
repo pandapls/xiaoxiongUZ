@@ -1,7 +1,7 @@
 <template>
 	<div class="navlist">
 		<div class="left">
-			<span class=" iconfont" :class="icon1"></span><span>{{title}}</span><span class="el el-icon-arrow-right"></span>
+			<span class=" iconfont" :class="icon1"></span><span class="title">{{title}}</span><span class="el el-icon-arrow-right"></span>
 		</div>
 		<div class="contentRight">
 			<div class="ctxitem" v-for="item,index in data">
@@ -41,17 +41,17 @@
 <style lang="less">
 	.contentRight {
 		box-shadow: rgba(180, 180, 180, .25) 3px 0 3px 1px;
-		width: 300px;
+		width: 748px;
 		position: absolute;
-		left: 80px;
+		left:200px;
 		top: 0;
-		padding-top: 10px;
-		padding-left: 10px;
+		padding-top: 30px;
+		padding-left: 30px;
 		
 		background-color: #fff;
 		box-sizing: border-box;
 		display: none;
-		min-height: 170px;
+		min-height: 420px;
 		z-index: 10;
 		text-indent: 0px;
 		box-sizing: content-box;
@@ -59,24 +59,24 @@
 			
 			.title{
 				/*box-sizing: content-box;*/
-				line-height: 7px;
-				font-size: 5px;
+				line-height: 25px;
+				font-size: 14px;
 				padding-left: 5px;
 				font-weight: 400;
-				border-left: 1px solid #009fe8;
+				border-left: 5px solid #009fe8;
 			}
 			.items{
-				width: 180px;
+				width: 600px;
 				text-wrap: 1;
 				padding: 0 5px;
 				/*overflow-wrap: break-word;*/
 				/*line-height: 20px;*/
 				overflow: hidden;
 				span{
-					padding: 0 3px;
+					padding: 0 10px;
 					border-right: 1px solid #dfdfdf;
 					margin-right: 1px;
-					font-size: 4px;
+					font-size: 12px;
 					color: #666666;
 					
 				}
@@ -95,11 +95,11 @@
 			right: 0;
 			top: 0;
 			height: 100%;
-			width: 70px;
-			padding: 5px 0 0 2px;
+			width: 200px;
+			padding: 5px 0 0 10px;
 			border-left: 1px solid #f7f7f7;
 			img{
-				width:65px;
+				width:180px;
 			}
 		}
 	}

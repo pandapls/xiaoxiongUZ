@@ -100,23 +100,28 @@
 
 <style lang="less">
 	.myfoot {
-		padding: 30px;
-		font-size: 8px;
+		padding: 40px;
+		/*font-size: 12px;*/
+		background: #fff;
 		.topbox {
 			list-style: none;
 			border-bottom: 1px solid #fbfbfb;
-			padding-bottom: 20px;
+			padding: 50px 0;
+			justify-content: space-between;
+			display:flex;
+			margin: 0 auto;
 			li {
-				float: left;
-				width: 100px;
-				margin: 0 19px;
+				/*float: left;*/
+				
+				width: 200px;
+				margin: 0 auto;
 				span {
 					display: inline-block;
 					float: left;
 					width: 46px;
 					height: 46px;
 					/*border: 1px solid red;*/
-					zoom: 0.5;
+					/*zoom: 0.5;*/
 					background: url(../assets/images/product-list-v1-9.png) -64px -499px no-repeat;
 					/*background-size:1500%;*/
 					margin-right: 30px;
@@ -131,16 +136,19 @@
 					background: url(../assets/images/product-list-v1-9.png) -350px -500px no-repeat;
 				}
 				.rightbox {
-					line-height: 10px;
+					line-height: 20px;
+					font-size: 16px;
+					/*float: left;*/
 					p:nth-of-type(2) {
 						color: #acacac;
-						font-size: 5px;
+						font-size: 12px;
 					}
 				}
 			}
 		}
 		.bottombox{
 			display: flex;
+			padding: 0 60px;
 			margin-top: 20px;
 			padding-bottom: 10px;
 			border-bottom: 1px solid #efefef;
@@ -150,15 +158,16 @@
 				/*border-right: 1px solid #e5e5e5;*/
 				.item{
 					flex: 1;
+					line-height: 20px;
 					.title{
 						line-height: 20px;
-						font-size: 6px;
+						font-size: 14px;
 					}
 					p{
 						text-align: left;
 					}
 					a{
-						font-size: 5px;
+						font-size: 12px;
 						text-decoration: none;
 						color: #afb2c0;
 					}
@@ -171,28 +180,29 @@
 					flex: 1;
 				}
 				.phone{
-					font-size: 6px;
-					line-height: 15px;
+					font-size: 14px;
+					line-height: 30px;
 					.number{
-						font-size: 8px;
+						font-size: 16px;
 						font-weight: 700;
 					}
 				}
 				.img{
 					width: 50%;
 					height: 138px;
-				    zoom: 0.4;
+				    /*zoom: 0.4;*/
 				    background: url(/img/product-list-v1-9.404cb190.png) 4px -565px no-repeat;
 				}
 				.code{
 					text-align: center;
+					font-size: 16px;
 					img{
-						width: 50px;
-						height: 50px;
+						width: 100px;
+						height: 100px;
 					}
 					p{
 						color: #8c8c80;
-						font-size: 6px;
+						font-size: 16px;
 						text-align: center;
 					}
 					
@@ -201,20 +211,20 @@
 			}
 		}
 		.banquan{
-			font-size: 4px;
+			font-size: 12px;
 			color: #a5a5a5;
 			text-align: center;
 			padding: 20px 0;
-			line-height: 12px;
+			line-height: 25px;
 			p{
 				position: relative;
 			}
 			img{
-				width: 10px;
-				height: 15px;
+				width: 20px;
+				height: 30px;
 				position: absolute;
 				right:42%;
-				top: -4px;
+				top: 0px;
 			}
 		}
 	}

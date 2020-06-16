@@ -19,6 +19,7 @@ import myfoot from './components/myfoot'
 	}
 body{
 	 font-family: Avenir, Helvetica, Arial, sans-serif;
+	 background: #f5f5f5;
 }
 #app {
   	width: 100vw;

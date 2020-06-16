@@ -1,29 +1,30 @@
 [
     {
         "name":"笔记本",
+        "id":"bijiben",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"ThinkPad E490",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"ThinkPad E480",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"ThinkPad L13",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"ThinkPad T430",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"HP 348G7",
-                        "id":111
+                        "id":"bijiben"
                     }
                 ]
             },
@@ -32,19 +33,19 @@
                 "zlist":[
                     {
                         "ztitle":"Intel 酷睿 i3",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"Intel 酷睿 i5",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"Intel 酷睿 i7",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"Intel 酷睿 i9",
-                        "id":111
+                        "id":"bijiben"
                     }
                 ]
             },
@@ -53,15 +54,15 @@
                 "zlist":[
                     {
                         "ztitle":"4G",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"8G",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"16G",
-                        "id":111
+                        "id":"bijiben"
                     }
                 ]
             },
@@ -70,19 +71,19 @@
                 "zlist":[
                     {
                         "ztitle":"核显",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"1G独显",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"2G独显",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"4G独显",
-                        "id":111
+                        "id":"bijiben"
                     }
                 ]
             },
@@ -91,31 +92,31 @@
                 "zlist":[
                     {
                         "ztitle":"12.5",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"13.3",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"13.5",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"14",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"15.4",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"15.6",
-                        "id":111
+                        "id":"bijiben"
                     },
                     {
                         "ztitle":"16",
-                        "id":111
+                        "id":"bijiben"
                     }
                 ]
             }
@@ -129,29 +130,30 @@
     },
     {
         "name":"台式机",
+        "id":"taishiji",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"Lenovo E96X",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"小熊U机 G10",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"HP 288Pro G4",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Dell 3020",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Dell 成铭3980",
-                        "id":111
+                        "id":"taishiji"
                     }
                 ]
             },
@@ -160,23 +162,23 @@
                 "zlist":[
                     {
                         "ztitle":"奔腾/赛扬",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i3",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i5",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i7",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i9",
-                        "id":111
+                        "id":"taishiji"
                     }
                 ]
             },
@@ -185,23 +187,23 @@
                 "zlist":[
                     {
                         "ztitle":"4G",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"8G",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"16G",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"32G",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"64G",
-                        "id":111
+                        "id":"taishiji"
                     }
                 ]
             },
@@ -210,27 +212,27 @@
                 "zlist":[
                     {
                         "ztitle":"核显",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"1G独显",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"2G独显",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"4G独显",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"5G独显",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"6G独显",
-                        "id":111
+                        "id":"taishiji"
                     }
                 ]
             },
@@ -239,31 +241,31 @@
                 "zlist":[
                     {
                         "ztitle":"19.5",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"20",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"21.5",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"23",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"23.8",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"24",
-                        "id":111
+                        "id":"taishiji"
                     },
                     {
                         "ztitle":"27",
-                        "id":111
+                        "id":"taishiji"
                     }
                 ]
             }
@@ -277,17 +279,18 @@
     },
     {
         "name":"一体机",
+        "id":"yitiji",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"小熊U机 D22",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"苹果Apple iMac",
-                        "id":111
+                        "id":"yitiji"
                     }
                 ]
             },
@@ -296,19 +299,19 @@
                 "zlist":[
                     {
                         "ztitle":"奔腾/赛扬",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i3",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i5",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"Intel 酷睿 i7",
-                        "id":111
+                        "id":"yitiji"
                     }
                 ]
             },
@@ -317,15 +320,15 @@
                 "zlist":[
                     {
                         "ztitle":"4G",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"8G",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"64G",
-                        "id":111
+                        "id":"yitiji"
                     }
                 ]
             },
@@ -334,19 +337,19 @@
                 "zlist":[
                     {
                         "ztitle":"核显",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"2G独显",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"4G独显",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"8G独显",
-                        "id":111
+                        "id":"yitiji"
                     }
                 ]
             },
@@ -355,15 +358,15 @@
                 "zlist":[
                     {
                         "ztitle":"21.5",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"23.8",
-                        "id":111
+                        "id":"yitiji"
                     },
                     {
                         "ztitle":"27",
-                        "id":111
+                        "id":"yitiji"
                     }
                 ]
             }
@@ -377,17 +380,18 @@
     },
     {
         "name":"显示器",
+        "id":"xianshiqi",
         "list":[
             {
                 "title":"品牌",
                 "zlist":[
                     {
                         "ztitle":"戴尔",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"飞利浦",
-                        "id":111
+                        "id":"xianshiqi"
                     }
                 ]
             },
@@ -396,15 +400,15 @@
                 "zlist":[
                     {
                         "ztitle":"1600*900",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"1920*1080",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"2560*1440",
-                        "id":111
+                        "id":"xianshiqi"
                     }
                 ]
             },
@@ -413,23 +417,23 @@
                 "zlist":[
                     {
                         "ztitle":"20",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"21.5",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"23.8",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"24",
-                        "id":111
+                        "id":"xianshiqi"
                     },
                     {
                         "ztitle":"27",
-                        "id":111
+                        "id":"xianshiqi"
                     }
                 ]
             } 
@@ -443,17 +447,18 @@
     },
     {
         "name":"平板电脑",
+        "id":"pbdn",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"iPad Air",
-                        "id":111
+                        "id":"pbdn"
                     },
                     {
                         "ztitle":"iPad mini",
-                        "id":111
+                        "id":"pbdn"
                     }
                 ]
             },
@@ -462,7 +467,7 @@
                 "zlist":[
                     {
                         "ztitle":"银色",
-                        "id":111
+                        "id":"pbdn"
                     }
                 ]
             },
@@ -471,7 +476,7 @@
                 "zlist":[
                     {
                         "ztitle":"9.7",
-                        "id":111
+                        "id":"pbdn"
                     }
                 ]
             },
@@ -480,7 +485,7 @@
                 "zlist":[
                     {
                         "ztitle":"16G",
-                        "id":111
+                        "id":"pbdn"
                     }
                 ]
             },
@@ -489,7 +494,7 @@
                 "zlist":[
                     {
                         "ztitle":"IOS",
-                        "id":111
+                        "id":"pbdn"
                     }
                 ]
             } 
@@ -503,21 +508,22 @@
     },
     {
         "name":"手机",
+        "id":"shouji",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"iPhone 11 Pro",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"iPhone 11 XR",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"iPhone SE",
-                        "id":111
+                        "id":"shouji"
                     }
                 ]
             },
@@ -526,15 +532,15 @@
                 "zlist":[
                     {
                         "ztitle":"64G",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"128G",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"256G",
-                        "id":111
+                        "id":"shouji"
                     }
                 ]
             },
@@ -543,27 +549,27 @@
                 "zlist":[
                     {
                         "ztitle":"黑色",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"白色",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"蓝色",
-                        "id":111
+                        "id":"shouji"
                     }, 
                     {
                         "ztitle":"红色",
-                        "id":111
+                        "id":"shouji"
                     },
                      {
                         "ztitle":"黄色",
-                        "id":111
+                        "id":"shouji"
                     },
                     {
                         "ztitle":"珊瑚色",
-                        "id":111
+                        "id":"shouji"
                     }
                 ]
             }
@@ -577,29 +583,30 @@
     },
     {
         "name":"二手精品",
+        "id":"esjp",
         "list":[
             {
                 "title":"笔记本",
                 "zlist":[
                     {
                         "ztitle":"ThinkPad T430",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"ThinkPad T440",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"ThinkPad T440P",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"ThinkPad X240",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"ThinkPad E480",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             },
@@ -608,7 +615,7 @@
                 "zlist":[
                     {
                         "ztitle":"Dell 3020",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             },
@@ -617,11 +624,11 @@
                 "zlist":[
                     {
                         "ztitle":"IPhone 11 Pro",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"IPhone XR",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             },
@@ -630,11 +637,11 @@
                 "zlist":[
                     {
                         "ztitle":"小熊U机 D22",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"苹果Apple iMac",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             },
@@ -643,15 +650,15 @@
                 "zlist":[
                     {
                         "ztitle":"IBM",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"戴尔Dell",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"惠普HP",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             },
@@ -660,15 +667,15 @@
                 "zlist":[
                     {
                         "ztitle":"iPad Air1",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"iPad Air2",
-                        "id":111
+                        "id":"esjp"
                     },
                     {
                         "ztitle":"iPad mini2",
-                        "id":111
+                        "id":"esjp"
                     }
                 ]
             }
@@ -682,21 +689,22 @@
     },
     {
         "name":"打印机",
+        "id":"dyj",
         "list":[
             {
                 "title":"推荐机型",
                 "zlist":[
                     {
                         "ztitle":"M154nw",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"M203dw",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"138pnw",
-                        "id":111
+                        "id":"dyj"
                     }
                 ]
             },
@@ -705,11 +713,11 @@
                 "zlist":[
                     {
                         "ztitle":"彩色激光",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"黑色激光",
-                        "id":111
+                        "id":"dyj"
                     }
                 ]
             },
@@ -718,7 +726,7 @@
                 "zlist":[
                     {
                         "ztitle":"A4",
-                        "id":111
+                        "id":"dyj"
                     }
                 ]
             },
@@ -727,19 +735,19 @@
                 "zlist":[
                     {
                         "ztitle":"￥0-￥99",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"￥100-￥199",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"￥200-￥299",
-                        "id":111
+                        "id":"dyj"
                     },
                     {
                         "ztitle":"￥300以上",
-                        "id":111
+                        "id":"dyj"
                     }
                 ]
             }
@@ -752,17 +760,18 @@
     },
     {
         "name":"配件服务",
+        "id":"peijianfuwu",
         "list":[
             {
                 "title":"周边配件",
                 "zlist":[
                     {
                         "ztitle":"电脑包",
-                        "id":111
+                        "id":"peijianfuwu"
                     },
                     {
                         "ztitle":"鼠标",
-                        "id":111
+                        "id":"peijianfuwu"
                     }
                 ]
             },
@@ -771,7 +780,7 @@
                 "zlist":[
                     {
                         "ztitle":"工程师驻场服务",
-                        "id":111
+                        "id":"peijianfuwu"
                     }
                 ]
             },
@@ -780,15 +789,15 @@
                 "zlist":[
                     {
                         "ztitle":"Microsoft 365 商业基础版",
-                        "id":111
+                        "id":"peijianfuwu"
                     },
                     {
                         "ztitle":"Microsoft 365 商业标准版",
-                        "id":111
+                        "id":"peijianfuwu"
                     },
                     {
                         "ztitle":"Microsoft 365 商业应用版",
-                        "id":111
+                        "id":"peijianfuwu"
                     }
                 ]
             }
