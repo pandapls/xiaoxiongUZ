@@ -45,8 +45,8 @@
 			<li>特价专区</li>
 			<li>小熊短租</li>
 			<li>资产管理</li>
-			<li>关于我们</li>
-			<li>客户评价</li>
+			<li @click="mine">关于我们</li>
+			<li @click="speak">客户评价</li>
 		</ul>
 	</div>
 </template>
@@ -109,6 +109,12 @@
 					this.jug = false
 				}
 				
+			},
+			mine(){
+				this.$router.push('/mine')
+			},
+			speak(){
+				this.$router.push('/speak')
 			}
 		}
 	}
