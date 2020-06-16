@@ -1,0 +1,49 @@
+[
+   {
+       "title":"便携办公",
+       "first":{
+            "ztitle":"ThinkPad X240",
+            "dec":"清薄有质 轻装前行",
+            "des":"14* i3-8 4G 128G 核显",
+            "price":"85",
+            "imgSrc":"http://localhost:8000/data/index/images/portable/img1.jpg"
+        },
+       "list":[
+           {
+               "ztitle":"惠普HP 348G7",
+               "dec":"全新",
+               "des":"14* i5-10 8G 128G+1T 核显",
+               "price":"148",
+               "imgSrc":"http://localhost:8000/data/index/images/portable/img2.jpg"
+           },
+           {
+            "ztitle":"ThinkPad T430",
+            "dec":"全新",
+            "des":"14* i5-3 8G 120G 核显",
+            "price":"90",
+            "imgSrc":"http://localhost:8000/data/index/images/portable/img3.jpg"
+            },
+           {
+            "ztitle":"ThinkPad L13",
+            "dec":"全新",
+            "des":"13.3* i3-10 8G 256G 核显",
+            "price":"138",
+            "imgSrc":"http://localhost:8000/data/index/images/portable/img4.jpg"
+            },
+            {
+                "ztitle":"ThinkPad X250",
+                "dec":"全新",
+                "des":"12.5* i5-5 4G 120G 核显",
+                "price":"129",
+                "imgSrc":"http://localhost:8000/data/index/images/portable/img5.jpg"
+            },
+            {
+                "ztitle":"ThinkPad E480",
+                "dec":"全新",
+                "des":"14* i5-8 8G 256G 核显",
+                "price":"188",
+                "imgSrc":"http://localhost:8000/data/index/images/portable/img6.jpg"
+            }
+       ]
+   }
+]

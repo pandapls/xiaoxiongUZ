@@ -1,0 +1,72 @@
+{
+  "id": "1888126",
+  "name": "xxpro",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "825060",
+      "name": "手机",
+      "font_class": "shouji54",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "853076",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "1727503",
+      "name": "254PC台式机",
+      "font_class": "PCtaishiji",
+      "unicode": "e8dc",
+      "unicode_decimal": 59612
+    },
+    {
+      "icon_id": "4111833",
+      "name": "打印机",
+      "font_class": "printer",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5044226",
+      "name": "一体机",
+      "font_class": "yitiji",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "5220293",
+      "name": "平板电脑-01",
+      "font_class": "pingbandiannao-",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "6877168",
+      "name": "显示器",
+      "font_class": "xianshiqi",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "7983616",
+      "name": "笔记本",
+      "font_class": "xingzhuang",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "14660465",
+      "name": "灯光遥控器",
+      "font_class": "dengguangyaokongqibeifen",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}
