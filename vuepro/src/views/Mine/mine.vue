@@ -10,7 +10,7 @@
 				<ul>
 					<li>
 						<h5>关于我们</h5>
-						<p>企业概况</p>
+						<p id="active">企业概况</p>
 						<p>公司地址</p>
 						<p>服务网点</p>
 					</li>
@@ -31,9 +31,15 @@
 					企业概况
 				</p>
 				<div class="introduction">
-					<p class="in-title">企业简介</p>
+					<div class="in-title">
+						企业简介
+						<div class="in-border"></div>
+					</div>
 					<div class="in-content">
 						<div class="playaudio">
+							<div class="layer">
+								<div class="playBtn"></div>
+							</div>
 							<video class="bearrentalAdvertisingVideo" src="https://app.52rental.com/introduce/video/lingxiongrental.mp4" poster="https://www.bearrental.com/build/img/aboutUs/videoBg.png"></video>
 						</div>
 						<div class="playFont">
@@ -47,10 +53,116 @@
 						</div>
 					</div>
 				</div>
+				<div class="introduction">
+					<div class="in-title">
+						股东背景
+						<div class="in-border"></div>
+					</div>
+					<div class="in-backlist">
+						<img src="../../assets/aboutUs/shareholder_tx.png" />
+						<img src="../../assets/aboutUs/shareholder_jd.png" />
+						<img src="../../assets/aboutUs/shareholder_dc.png" />
+						<img src="../../assets/aboutUs/shareholder_dffh.png" />
+						<img src="../../assets/aboutUs/shareholder_qhcc.png" />
+						<img src="../../assets/aboutUs/shareholder_gjzx.png" />
+						<img src="../../assets/aboutUs/shareholder_szydjj.png" />
+						<img src="../../assets/aboutUs/shareholder_ftydjj.png" />
+					</div>
+				</div>
+				<div class="introduction">
+					<div class="in-title">
+						品牌优势
+						<div class="in-border"></div>
+					</div>
+					<ul class="in-avantage">
+						<li>
+							<div class="a-imgicon">
+							</div>
+							<p>极致产品，超强稳定</p>
+						</li>
+						<li>
+							<div class="b-imgicon">
+
+							</div>
+							<p>免押租赁，审核简单</p>
+						</li>
+						<li>
+							<div class="c-imgicon">
+
+							</div>
+							<p>免费上门，定期巡检</p>
+						</li>
+						<li>
+							<div class="d-imgicon">
+
+							</div>
+							<p>灵活下单，随需而变</p>
+						</li>
+					</ul>
+					<ul class="in-avan">
+						<li>
+							<div class="e-imgicon">
+							</div>
+							<p>极致产品，超强稳定</p>
+						</li>
+						<li>
+							<div class="f-imgicon">
+
+							</div>
+							<p>免押租赁，审核简单</p>
+						</li>
+						<li>
+							<div class="g-imgicon">
+
+							</div>
+							<p>免费上门，定期巡检</p>
+						</li>
+					</ul>
+				</div>
+				<div class="introduction">
+					<div class="in-title">
+						业务模式
+						<div class="in-border"></div>
+					</div>
+					<p class="prodution">小熊U租提供IT办公设备综合解决方案，包括IT办公设备租赁、IT技术服务、IT设备回收、资产管理SaaS软件等服务</p>
+					<ul class="in-modul">
+						<li>
+							<img src="../../assets/aboutUs/businessModeImg1.png" />
+							<p>1.IT办公设备租赁</p>
+						</li>
+						<li>
+							<img src="../../assets/aboutUs/businessModeImg2.png" />
+							<p>2.IT技术服务</p>
+						</li>
+						<li>
+							<img src="../../assets/aboutUs/businessModeImg3.png" />
+							<p>3.IT设备回收</p>
+						</li>
+						<li>
+							<img src="../../assets/aboutUs/businessModeImg4.png" />
+							<p>4.资产管理SaaS软件</p>
+						</li>
+					</ul>
+				</div>
+				<div class="introduction">
+					<div class="in-title">
+						服务客户
+						<div class="in-border"></div>
+					</div>
+					<p class="prodution">服务客户30000+，500强企业100+，独角兽和上市公司2500+，客户满意度达96%</p>
+					<div class="imglist">
+						<img src="../../assets/aboutUs/serviceCustomer.png" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </template>
+<script>
+	export default {
+		
+	}
+</script>
 <style scoped lang="less">
 	.nav {
 		margin-left: 55px;
@@ -65,7 +177,9 @@
 	}
 	
 	.section {
+		width: 100%;
 		display: flex;
+		margin-bottom: 80px;
 	}
 	
 	.leftBox {
@@ -88,6 +202,10 @@
 					font-size: 15px;
 					color: #7f667f;
 				}
+				p:hover {
+					color: #009fe8;
+					border-left: 3px solid #009fe8;
+				}
 			}
 		}
 	}
@@ -96,6 +214,7 @@
 		width: 1000px;
 		background: white;
 		margin-left: 20px;
+		padding-bottom: 30px;
 		.rightTittle {
 			font-size: 14px;
 			font-weight: bold;
@@ -107,25 +226,59 @@
 		}
 		.introduction {
 			margin-left: 40px;
+			margin-top: 20px;
 			.in-title {
 				text-align: center;
 				color: #947469;
-				height: 50px;
+				height: 56px;
 				line-height: 65px;
 				border-bottom: 1px solid #e9e9e9;
 				width: 200px;
-				margin-left: 300px;
+				margin-left: 340px;
 				font-family: "arial, helvetica, sans-serif";
 				font-size: 18px;
+				position: relative;
+				.in-border {
+					width: 52px;
+					height: 2px;
+					background-color: #009fe8;
+					position: absolute;
+					top: 97%;
+					left: 38%;
+				}
 			}
 		}
 		.in-content {
 			display: flex;
-			margin-top: 20px;
+			margin-top: 30px;
 			.playaudio {
+				width: 362px;
+				height: 229px;
+				position: relative;
+				.layer {
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					background: rgba(8, 8, 8, .65);
+					.playBtn {
+						cursor: pointer;
+						width: 68px;
+						height: 68px;
+						position: absolute;
+						left: 50%;
+						top: 50%;
+						margin-left: -34px;
+						margin-top: -34px;
+						background: url(../../assets/aboutUs/spirit.png) 0 -220px no-repeat no-repeat;
+					}
+				}
 				.bearrentalAdvertisingVideo {
-					width: 400px;
-					height: 220px;
+					width: 100%;
+					height: 100%;
+					display: block;
 				}
 			}
 			.playFont {
@@ -139,5 +292,115 @@
 				}
 			}
 		}
+	}
+	
+	.in-backlist {
+		display: flex;
+		flex-wrap: wrap;
+		img {
+			margin-left: 62px;
+			margin-top: 30px;
+		}
+	}
+	
+	.in-avantage {
+		list-style: none;
+		display: flex;
+		margin-top: 30px;
+		width: 100%;
+		li {
+			margin-left: 90px;
+			div {
+				width: 100px;
+				height: 100px;
+				margin: auto;
+			}
+			.a-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) 0 -115px no-repeat no-repeat
+			}
+			.b-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) -106px -300px no-repeat no-repeat;
+			}
+			.c-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) -213px -301px no-repeat no-repeat;
+			}
+			.d-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) -320px -301px no-repeat no-repeat;
+			}
+			p {
+				text-align: center;
+				font-size: 12px;
+				line-height: 35px;
+				color: #009fe8;
+			}
+		}
+	}
+	
+	.in-avan {
+		list-style: none;
+		display: flex;
+		width: 67%;
+		margin: auto;
+		li {
+			padding-top: 40px;
+			padding-right: 55px;
+			flex: 1;
+			div {
+				width: 100px;
+				height: 100px;
+				margin: auto;
+			}
+			.e-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) 0 -402px no-repeat no-repeat
+			}
+			.f-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) -105px -402px no-repeat no-repeat;
+			}
+			.g-imgicon {
+				background: url(../../assets/aboutUs/spirit.png) -213px -402px no-repeat no-repeat;
+			}
+			p {
+				text-align: center;
+				font-size: 12px;
+				line-height: 35px;
+				color: #009fe8;
+			}
+		}
+	}
+	
+	.in-modul {
+		list-style: none;
+		display: flex;
+		margin-top: 25px;
+		margin-left: 20px;
+		li {
+			img {
+				width: 150px;
+				height: 90px;
+				margin-left: 50px;
+			}
+			p {
+				text-align: center;
+				font-size: 12px;
+				line-height: 35px;
+				color: #009fe8;
+				text-indent: 40px;
+			}
+		}
+	}
+	
+	.prodution {
+		font-weight: bold;
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.imglist {
+		padding: 40px 100px;
+	}
+	
+	#active {
+		color: #009fe8;
+		border-left: 3px solid #009fe8;
 	}
 </style>
