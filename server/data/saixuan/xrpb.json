@@ -55,14 +55,6 @@
             {
                 "title":"苹果"
                 
-            },
-            {
-                "title":"惠普"
-                
-            },
-            {
-                "title":"其它"
-               
             }
         ]
     },
@@ -101,115 +93,28 @@
         ]
     },
     {
-        "name":"CPU",
-        "list":[
-            {
-                "title":"双核"
-                
-            },
-            {
-                "title":"i3 8代"
-                
-            },
-            {
-                "title":"i5 4代"
-                
-            },
-            {
-                "title":"i5 7代"
-                
-            },
-            {
-                "title":"i5 8代"
-                
-            },
-            {
-                "title":"i7 8代"
-                
-            },
-            {
-                "title":"i3 9代"
-                
-            }
-        ]
-    },
-    {
-        "name":"内存",
-        "list":[
-            {
-                "title":"4G"
-                
-            },
-            {
-                "title":"8G"
-                
-            },
-            {
-                "title":"16G"
-                
-            }
-        ]
-    },
-    {
-        "name":"机械硬盘",
-        "list":[
-            {
-                "title":"2T融合"
-                
-            },
-            {
-                "title":"1T融合"
-                
-            }
-        ]
-    },
-    {
         "name":"固态硬盘",
         "list":[
             {
-                "title":"128G SSD"
-                
-            },
-            {
-                "title":"256G SSD"
+                "title":"16G SSD"
                 
             }
         ]
     },
     {
-        "name":"显卡",
+        "name":"尺寸",
         "list":[
             {
-                "title":"Radeon Pro 560X 4G"
-                
-            },
-            {
-                "title":"Radeon Pro 555X 2G"
-                
-            },
-            {
-                "title":"Radeon Pro 570X 4G独显"
-                
-            },
-            {
-                "title":"RX150 2G独显"
-                
-            },
-            {
-                "title":"AMD Radeon Pro 550M 4G"
+                "title":"9.7"
                 
             }
         ]
     },
     {
-        "name":"颜色",
+        "name":"操作系统",
         "list":[
             {
-                "title":"黑色"
-                
-            },
-            {
-                "title":"银色"
+                "title":"iOS"
                 
             }
         ]

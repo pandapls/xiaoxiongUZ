@@ -1,0 +1,38 @@
+[
+    {
+        "title":"IBM 3550-M4服务器【E5-2620V2/16G/1T】",
+        "price":"208.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq1.jpg",
+        "id":"fwq"
+    },
+    {
+        "title":"惠普HP 380P-GEN8服务器【E5-2620V2/16G/1T】",
+        "price":"258.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq2.jpg",
+        "id":"fwq"
+    },
+    {
+        "title":"IBM 3650-M4服务器【E5-2620V2/16G/1T】",
+        "price":"318.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq3.jpg",
+        "id":"fwq"
+    },
+    {
+        "title":"IBM 3550-M4服务器【E5-2620V2/16G/1T】",
+        "price":"208.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq4.jpg",
+        "id":"fwq"
+    },
+    {
+        "title":"惠普HP 380P-GEN8服务器【E5-2620V2/16G/1T】",
+        "price":"418.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq5.jpg",
+        "id":"fwq"
+    },
+    {
+        "title":"IBM 3650-M4服务器【E5-2620V2/16G/1T】",
+        "price":"538.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/fwq6.jpg",
+        "id":"fwq"
+    }
+]

@@ -1,6 +1,6 @@
 <template>
 	<div class="navlist">
-		<div class="left">
+		<div class="left" @click="golist" >
 			<span class=" iconfont" :class="icon1"></span><span class="title">{{title}}</span><span class="el el-icon-arrow-right"></span>
 		</div>
 		<div class="contentRight">
@@ -9,7 +9,7 @@
 				<p class="items">
 					<span v-for="zitem in item.zlist">{{zitem.ztitle}}</span>
 					<!--<span>ThinkPad E490</span>
-					<span>ThinkPad E490</span>
+					<spaEn>ThinkPad E490</span>
 					<span>ThinkPad E490</span>
 					<span>ThinkPad E490</span>-->
 
@@ -26,7 +26,7 @@
 <script>
 	export default {
 		name: "navitem",
-		props: ['title', 'icon1', 'data','leftimg'],
+		props: ['title', 'icon1', 'data','leftimg','idPath'],
 		data() {
 			return {
 				datas: []
@@ -35,6 +35,16 @@
 		mounted() {
 //			console.log(this.data)
 		},
+		methods:{
+			golist(){
+//				console.log(this.idPath)
+//				this.$store.state.goodslistPath =this.idPath
+				this.$router.push('/goodslist')
+				this.$store.commit('changGoodslsitPath',this.idPath)
+//				console.log(this.$store.state.goodslistPath)
+
+			}
+		}
 	}
 </script>
 

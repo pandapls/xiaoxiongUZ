@@ -53,28 +53,8 @@
         "name":"商品品牌",
         "list":[
             {
-                "title":"苹果"
+                "title":"BenQ"
                 
-            },
-            {
-                "title":"联想"
-                
-            },
-            {
-                "title":"戴尔"
-                
-            },
-            {
-                "title":"惠普"
-                
-            },
-            {
-                "title":"ThinkPad"
-                
-            },
-            {
-                "title":"其它"
-               
             }
         ]
     },
@@ -113,77 +93,10 @@
         ]
     },
     {
-        "name":"CPU",
-        "list":[
-            {
-                "title":"i3 10代"
-                
-            },
-            {
-                "title":"i3 8代"
-                
-            },
-            {
-                "title":"i5 10代"
-                
-            },
-            {
-                "title":"i5 8代"
-                
-            },
-            {
-                "title":"i5 7代"
-                
-            },
-            {
-                "title":"i5 6代"
-                
-            }
-        ]
-    },
-    {
-        "name":"内存",
-        "list":[
-            {
-                "title":"4G"
-                
-            },
-            {
-                "title":"8G"
-                
-            },
-            {
-                "title":"16G"
-                
-            }
-        ]
-    },
-    {
-        "name":"机械硬盘",
-        "list":[
-            {
-                "title":"500G"
-                
-            },
-            {
-                "title":"1T"
-                
-            },
-            {
-                "title":"无"
-                
-            }
-        ]
-    },
-    {
         "name":"固态硬盘",
         "list":[
             {
-                "title":"128G SSD"
-                
-            },
-            {
-                "title":"120G SSD"
+                "title":"64G SSD"
                 
             },
             {
@@ -191,36 +104,7 @@
                 
             },
             {
-                "title":"240G SSD"
-                
-            },
-            {
-                "title":"512G SSD"
-                
-            }
-        ]
-    },
-    {
-        "name":"显卡",
-        "list":[
-            {
-                "title":"标配 2G"
-                
-            },
-            {
-                "title":"核显"
-                
-            },
-            {
-                "title":"RX550 2G独显"
-                
-            },
-            {
-                "title":"RX150 2G独显"
-                
-            },
-            {
-                "title":"AMD Radeon Pro 550M 4G"
+                "title":"128G SSD"
                 
             }
         ]
@@ -229,7 +113,7 @@
         "name":"颜色",
         "list":[
             {
-                "title":"黑色"
+                "title":"黄色"
                 
             },
             {
@@ -237,11 +121,35 @@
                 
             },
             {
-                "title":"深灰"
+                "title":"黑色"
                 
             },
             {
                 "title":"金色"
+                
+            },
+            {
+                "title":"蓝色"
+                
+            },
+            {
+                "title":"白色"
+                
+            },
+            {
+                "title":"珊瑚色"
+                
+            },
+            {
+                "title":"暗夜绿"
+                
+            },
+            {
+                "title":"红色"
+                
+            },
+            {
+                "title":"深灰色"
                 
             }
         ]

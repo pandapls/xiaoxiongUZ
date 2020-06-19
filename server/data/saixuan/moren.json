@@ -4,39 +4,48 @@
         "list":[
             {
                 "title":"笔记本",
-                "id":"xrbjb"
+                "id":"xrbjb",
+                "goodslist":"bijiben"
             },
             {
                 "title":"一体机",
-                "id":"xrytj"
+                "id":"xrytj",
+                "goodslist":"ytj"
             },
             {
                 "title":"台式机",
-                "id":"xrtsj"
+                "id":"xrtsj",
+                "goodslist":"tsj"
             },
             {
                 "title":"服务器",
-                "id":"xrfwq"
+                "id":"xrfwq",
+                "goodslist":"fwq"
             },
             {
                 "title":"平板电脑",
-                "id":"xrpb"
+                "id":"xrpb",
+                "goodslist":"pbdn"
             },
             {
                 "title":"打印机",
-                "id":"xrdyj"
+                "id":"xrdyj",
+                "goodslist":"dyj"
             },
             {
                 "title":"投影仪",
-                "id":"xrtyy"
+                "id":"xrtyy",
+                "goodslist":"esjp"
             },
             {
                 "title":"手机",
-                "id":"xrsj"
+                "id":"xrsj",
+                "goodslist":"sj"
             },
             {
                 "title":"显示器",
-                "id":"xrsj"
+                "id":"xrxsq",
+                "goodslist":"xsq"
             }
         ]
     },

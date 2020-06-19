@@ -1,0 +1,20 @@
+[
+    {
+        "title":"苹果Apple iPad MINI2平板电脑【16G/IOS/银色】",
+        "price":"70.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/pb1.jpg",
+        "id":"pbdn"
+    },
+    {
+        "title":"苹果Apple iPad Air1 9.7英寸平板电脑【【特价】16G/9.7/IOS/银色】",
+        "price":"79.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/pb2.jpg",
+        "id":"pbdn"
+    },
+    {
+        "title":"苹果Apple iPad Air2  9.7英寸平板电脑【【特价】16G/9.7/IOS/银色】",
+        "price":"89.00",
+        "imgSrc":"http://localhost:8000/data/goodslist/images/pb3.jpg",
+        "id":"pbdn"
+    }
+]

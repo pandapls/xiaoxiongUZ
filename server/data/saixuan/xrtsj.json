@@ -53,10 +53,6 @@
         "name":"商品品牌",
         "list":[
             {
-                "title":"苹果"
-                
-            },
-            {
                 "title":"联想"
                 
             },
@@ -66,14 +62,6 @@
             },
             {
                 "title":"惠普"
-                
-            },
-            {
-                "title":"ThinkPad"
-                
-            },
-            {
-                "title":"其它"
                
             }
         ]
@@ -116,7 +104,19 @@
         "name":"CPU",
         "list":[
             {
-                "title":"i3 10代"
+                "title":"双核"
+                
+            },
+            {
+                "title":"i3 4代"
+                
+            },
+            {
+                "title":"i3 6代"
+                
+            },
+            {
+                "title":"i3 7代"
                 
             },
             {
@@ -124,19 +124,15 @@
                 
             },
             {
-                "title":"i5 10代"
-                
-            },
-            {
-                "title":"i5 8代"
-                
-            },
-            {
-                "title":"i5 7代"
+                "title":"i5 4代"
                 
             },
             {
                 "title":"i5 6代"
+                
+            },
+            {
+                "title":"i5 7代"
                 
             }
         ]
@@ -155,6 +151,14 @@
             {
                 "title":"16G"
                 
+            },
+            {
+                "title":"32G"
+                
+            },
+            {
+                "title":"64G"
+                
             }
         ]
     },
@@ -170,7 +174,7 @@
                 
             },
             {
-                "title":"无"
+                "title":"2T"
                 
             }
         ]
@@ -179,15 +183,7 @@
         "name":"固态硬盘",
         "list":[
             {
-                "title":"128G SSD"
-                
-            },
-            {
                 "title":"120G SSD"
-                
-            },
-            {
-                "title":"256G SSD"
                 
             },
             {
@@ -197,6 +193,10 @@
             {
                 "title":"512G SSD"
                 
+            },
+            {
+                "title":"128G SSD"
+                
             }
         ]
     },
@@ -204,44 +204,40 @@
         "name":"显卡",
         "list":[
             {
-                "title":"标配 2G"
+                "title":"标配2G"
                 
             },
             {
-                "title":"核显"
+                "title":"GT730 2G"
                 
             },
             {
-                "title":"RX550 2G独显"
+                "title":"RTX2080T1 11G"
                 
             },
             {
-                "title":"RX150 2G独显"
-                
-            },
-            {
-                "title":"AMD Radeon Pro 550M 4G"
+                "title":"GTX1650 4G"
                 
             }
         ]
     },
     {
-        "name":"颜色",
+        "name":"显示器",
         "list":[
             {
-                "title":"黑色"
+                "title":"20"
                 
             },
             {
-                "title":"银色"
+                "title":"27"
                 
             },
             {
-                "title":"深灰"
+                "title":"21.5"
                 
             },
             {
-                "title":"金色"
+                "title":"23"
                 
             }
         ]

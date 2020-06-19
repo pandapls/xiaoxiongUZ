@@ -53,16 +53,8 @@
         "name":"商品品牌",
         "list":[
             {
-                "title":"苹果"
+                "title":"BenQ"
                 
-            },
-            {
-                "title":"惠普"
-                
-            },
-            {
-                "title":"其它"
-               
             }
         ]
     },
@@ -101,102 +93,23 @@
         ]
     },
     {
-        "name":"CPU",
+        "name":"亮度",
         "list":[
             {
-                "title":"双核"
-                
-            },
-            {
-                "title":"i3 8代"
-                
-            },
-            {
-                "title":"i5 4代"
-                
-            },
-            {
-                "title":"i5 7代"
-                
-            },
-            {
-                "title":"i5 8代"
-                
-            },
-            {
-                "title":"i7 8代"
-                
-            },
-            {
-                "title":"i3 9代"
+                "title":"3000~3999流明"
                 
             }
         ]
     },
     {
-        "name":"内存",
+        "name":"显示分辨率",
         "list":[
             {
-                "title":"4G"
+                "title":"标请(1024×768)"
                 
             },
             {
-                "title":"8G"
-                
-            },
-            {
-                "title":"16G"
-                
-            }
-        ]
-    },
-    {
-        "name":"机械硬盘",
-        "list":[
-            {
-                "title":"2T融合"
-                
-            },
-            {
-                "title":"1T融合"
-                
-            }
-        ]
-    },
-    {
-        "name":"固态硬盘",
-        "list":[
-            {
-                "title":"128G SSD"
-                
-            },
-            {
-                "title":"256G SSD"
-                
-            }
-        ]
-    },
-    {
-        "name":"显卡",
-        "list":[
-            {
-                "title":"Radeon Pro 560X 4G"
-                
-            },
-            {
-                "title":"Radeon Pro 555X 2G"
-                
-            },
-            {
-                "title":"Radeon Pro 570X 4G独显"
-                
-            },
-            {
-                "title":"RX150 2G独显"
-                
-            },
-            {
-                "title":"AMD Radeon Pro 550M 4G"
+                "title":"普清(800×600)"
                 
             }
         ]
@@ -206,11 +119,6 @@
         "list":[
             {
                 "title":"黑色"
-                
-            },
-            {
-                "title":"银色"
-                
             }
         ]
     }

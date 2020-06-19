@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="headmid">
-			<div class="xxicon"></div>
+			<div class="xxicon" @click="goIndex"></div>
 			<div class="headsearch">
 				<input type="text" class="searchinput" />
 				<button class="searchbtn">搜索</button>
@@ -35,14 +35,14 @@
 			</div>
 		</div>
 		<ul class="nav_1">
-			<li @mouseenter="show($event)" @mouseleave="hid($event)">
+			<li @mouseenter="show($event)" @mouseleave="hid($event)" @click="golist">
 				全部商品分类
-				<div class="nav_2" v-show="jug">
-					<navitem v-for="item,index in list" :title="item.name" :icon1='icons[index]' :data='item.list' :leftimg='item.imgSrcs'></navitem>
+				<div class="nav_2" v-show="$store.state.jug">
+					<navitem v-for="item,index in list" :title="item.name" :idPath="item.id" :icon1='icons[index]' :data='item.list' :leftimg='item.imgSrcs'></navitem>
 				</div>
 			</li>
-			<li>商场首页</li>
-			<li>特价专区</li>
+			<li @click="$router.push('/index')">商场首页</a></li>
+			<li @click="$router.push('/special')">特价专区</a></li>
 			<li>小熊短租</li>
 			<li>资产管理</li>
 			<li @click="mine">关于我们</li>
@@ -63,16 +63,18 @@
 			return{
 				icons:['icon-xingzhuang','icon-PCtaishiji','icon-yitiji','icon-xianshiqi','icon-pingbandiannao-','icon-shouji54','icon-xingxing','icon-printer','icon-dengguangyaokongqibeifen'],
 				list:[],
-				jug:false
+//				jug:false
 			}
 		},
 		mounted: function() {
 			this.getHoneData("http://localhost:8000/public");
-//			jug = this.$store.state.showNav
-			console.log(window.location.hash)
-			if(window.location.hash =='#/' ||window.location.hash =='#/index'){
-					this.jug = true
-				}
+//			console.log(window.location.hash)
+//			if(window.location.hash =='#/' ||window.location.hash =='#/index'){
+//					this.$store.state.jug = true
+					this.$store.commit('changeNav',window.location.hash)
+//			}
+			
+			
 		},
 
 		methods: {
@@ -80,7 +82,6 @@
 				fetch(path)
 					.then(res => res.json())
 					.then(data => {
-//						console.log(data);
 						this.list = data;
 					})
 					.catch(function(e) {
@@ -88,25 +89,23 @@
 					});
 			},
 			getPath(val){
-//				console.log(val)
 				 this.$store.state.indexpath =val
 			},
 			show(e){
 				if(window.location.hash =='#/' ||window.location.hash =='#/index'){
-					this.jug = true
+					this.$store.state.jug = true
 					return
 				}else{
-					this.jug = true
+					this.$store.state.jug = true
 				}
-				console.log(e)
 				
 			},
 			hid(e){
 				if(window.location.hash =='#/' ||window.location.hash =='#/index'){
-					this.jug = true
+					this.$store.state.jug = true
 					return
 				}else{
-					this.jug = false
+					this.$store.state.jug = false
 				}
 				
 			},
@@ -115,6 +114,14 @@
 			},
 			speak(){
 				this.$router.push('/speak')
+			},
+			goIndex(){
+				this.$router.push('/index')
+			},
+			golist(){
+//				this.$store.commit('changGoodslsitPath','default')
+				this.$router.push('/goodslist')
+				
 			}
 		}
 	}
@@ -122,7 +129,10 @@
 
 <style lang="less">
 	@import url("../assets/iconfont/iconfont.css");
-	
+	a{
+		text-decoration: none;
+		color:#000000 ;
+	}
 	.myhead{
 		/*padding: 0 30px;*/
 		background: #fff;
@@ -131,7 +141,7 @@
 			font-size: 12px;
 			display: flex;
 			justify-content: space-between;
-			padding: 10px 60px;
+			padding: 10px 130px;
 			.hdrightbox{
 				>span{
 					display: inline-block;
@@ -158,7 +168,7 @@
 			}
 		}
 		.headmid{
-			padding: 20px 60px;
+			padding: 20px 130px;
 			display: flex;
 			justify-content: space-between;
 			/*align-content: space-around;*/
@@ -234,14 +244,16 @@
 		}
 		.nav_1{
 			z-index: 20;
-			padding: 30px 60px;
+			padding: 30px 130px;
 			list-style: none;
 			display: flex;
 			font-size: 14px;
+			padding-bottom: 0;
 			>li{
 				/*border:1px solid #009fe8;*/
 				width: 150px;
 				text-align: center;
+				cursor: pointer;
 				line-height: 40px;
 			}
 			/*li:nth-of-type(1):hover{
@@ -261,7 +273,7 @@
 				.nav_2{
 					z-index: 20;
 					position:absolute;
-					top:50px;
+					top:40px;
 					left:0;
 					
 					.navlist{

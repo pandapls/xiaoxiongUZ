@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   	<myhead></myhead>
-    <router-view/>
+    <router-view ></router-view>
     <myfoot></myfoot>
   </div>
 </template>
@@ -11,7 +11,9 @@ import myhead from './components/myhead'
 	export default{
 		components:{
 			myfoot,myhead
-		}
+		},
+
+	
 	}
 </script>
 <style>
@@ -24,8 +26,8 @@ body{
 	 background: #f5f5f5;
 }
 #app {
-  	width: 100vw;
-	height: 100vh;
+  	width: 100%;
+	height: 100%;
 }
 
 

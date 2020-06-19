@@ -100,7 +100,7 @@
 
 <style lang="less">
 	.myfoot {
-		padding: 40px;
+		padding: 40px 130px;
 		/*font-size: 12px;*/
 		background: #fff;
 		.topbox {
