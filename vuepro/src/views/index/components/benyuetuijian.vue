@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="benyuetuijian" class="itemlistBox" v-for="(itemb,indexb) in BYTJlist" :key="indexb">
-      <h1>本月推荐</h1>
+      <h2>本月推荐</h2>
       <ul class="itemlist">
         <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz">
           <router-link to>
@@ -30,7 +30,7 @@ export default {
     };
   },
   mounted() {
-    this.getHoneData("http://localhost:8222/portable");
+    this.getHoneData("http://localhost:8000/portable");
   },
   methods: {
     getHoneData(path) {
@@ -50,7 +50,7 @@ export default {
 
 <style scoped lang="less">
 .itemlistBox {
-  h1 {
+  h2 {
     height: 60px;
     line-height: 60px;
   }
@@ -59,6 +59,9 @@ export default {
   }
   ul {
     display: flex;
+    li:hover {
+      box-shadow: 0px 0px 8px gainsboro;
+    }
     li {
       padding: 25px 40px;
       line-height: 28px;
