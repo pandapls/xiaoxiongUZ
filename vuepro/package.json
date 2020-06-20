@@ -20,6 +20,7 @@
     "less": "^3.11.3",
     "less-loader": "^6.1.1",
     "score": "0.0.0",
+    "vue-cli-plugin-test-attrs": "^0.1.5",
     "vue-template-compiler": "^2.6.11"
   }
 }

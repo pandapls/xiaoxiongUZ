@@ -10,19 +10,19 @@
 				<ul>
 					<li>
 						<h5>关于我们</h5>
-						<p id="active">企业概况</p>
-						<p>公司地址</p>
-						<p>服务网点</p>
+						<p id="active" @click="myIndex">企业概况</p>
+						<p @click="address">公司地址</p>
+						<p @click="server">服务网点</p>
 					</li>
 					<li>
 						<h5>关于我们</h5>
-						<p>企业咨询</p>
-						<p>媒体报道</p>
+						<p @click="consult">企业咨询</p>
+						<p @click="medio">媒体报道</p>
 					</li>
 					<li>
 						<h5>关于我们</h5>
-						<p>联系我们</p>
-						<p>商业合作</p>
+						<p @click="connection">联系我们</p>
+						<p @click="cooperate">商业合作</p>
 					</li>
 				</ul>
 			</div>
@@ -37,10 +37,10 @@
 					</div>
 					<div class="in-content">
 						<div class="playaudio">
-							<div class="layer">
+							<div class="layer hide">
 								<div class="playBtn"></div>
 							</div>
-							<video class="bearrentalAdvertisingVideo" src="https://app.52rental.com/introduce/video/lingxiongrental.mp4" poster="https://www.bearrental.com/build/img/aboutUs/videoBg.png"></video>
+							<video autoplay controls name="media" type="video/mp4" class="bearrentalAdvertisingVideo" src="https://app.52rental.com/introduce/video/lingxiongrental.mp4" poster="https://www.bearrental.com/build/img/aboutUs/videoBg.png"></video>
 						</div>
 						<div class="playFont">
 
@@ -160,7 +160,29 @@
 </template>
 <script>
 	export default {
-		
+		methods:{
+			myIndex(){
+				this.$router.push("/myindex")
+			},
+			address(){
+				this.$router.push("/address")
+			},
+			server(){
+				this.$router.push("/server")
+			},
+			consult(){
+				this.$router.push("/consult")
+			},
+			medio(){
+				this.$router.push("/medio")
+			},
+			connection(){
+				this.$router.push("/connection")
+			},
+			cooperate(){
+				this.$router.push("/cooperate")
+			}
+		}
 	}
 </script>
 <style scoped lang="less">
@@ -402,5 +424,8 @@
 	#active {
 		color: #009fe8;
 		border-left: 3px solid #009fe8;
+	}
+	.hide{
+		display: none;
 	}
 </style>
