@@ -2,13 +2,13 @@
     {
         "title":"明基BENQ MS3081+ 办公投影仪【【预定】3000～3999流明/普清(800x600)】",
         "price":"246.00",
-        "imgSrc":"http://localhost:8000/data/goodslist/images/tyy1.jpg",
+        "imgSrc":"http://localhost:8222/data/goodslist/images/tyy1.jpg",
         "id":"esjp"
     },
     {
         "title":"明基BENQ MX3291+ 办公投影仪【【预定】3000～3999流明/标清(1024x768)】",
         "price":"295.00",
-        "imgSrc":"http://localhost:8000/data/goodslist/images/tyy2.jpg",
+        "imgSrc":"http://localhost:8222/data/goodslist/images/tyy2.jpg",
         "id":"esjp"
     }
 ]

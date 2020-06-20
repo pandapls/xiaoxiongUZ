@@ -15,7 +15,7 @@
 		<div class="headmid">
 			<div class="xxicon" @click="goIndex"></div>
 			<div class="headsearch">
-				<input type="text" class="searchinput" />
+				<input type="text" class="searchinput" v-model="value" @keyup="OnSearchData"/>
 				<button class="searchbtn">搜索</button>
 				<div class="list">
 					<span>L13</span>
@@ -28,6 +28,9 @@
 					<span>348G7</span>
 					<span>288Pro G4</span>
 				</div>
+				<ul class="searchList" v-show="jug">
+					<li  v-for="item,index in msg" @click="getValue(item)">{{item.title}}</li>
+				</ul>
 			</div>
 			<div class="shopp">
 				<i class="el-icon-shopping-cart-2"></i>
@@ -63,11 +66,13 @@
 			return{
 				icons:['icon-xingzhuang','icon-PCtaishiji','icon-yitiji','icon-xianshiqi','icon-pingbandiannao-','icon-shouji54','icon-xingxing','icon-printer','icon-dengguangyaokongqibeifen'],
 				list:[],
-//				jug:false
+				jug:false,
+				value:'',
+				msg:[]
 			}
 		},
 		mounted: function() {
-			this.getHoneData("http://localhost:8000/public");
+			this.getHoneData("http://localhost:8222/public");
 //			console.log(window.location.hash)
 //			if(window.location.hash =='#/' ||window.location.hash =='#/index'){
 //					this.$store.state.jug = true
@@ -121,7 +126,32 @@
 			golist(){
 //				this.$store.commit('changGoodslsitPath','default')
 				this.$router.push('/goodslist')
+//				if(tdata.data==[]){
+//					this.jug = false;
+//				}
+			},
+			OnSearchData(){
+//				this.jug = true
 				
+				let path = "https://so.edianzu.com/sug?time=1592545130552&code=1e166dda01cbc44285bdaae39db8bd5a&plat=2&q="+this.value
+				 fetch(path)
+				.then(res => res.json())
+				.then(data => {
+					if(data.data ==[] ||this.value ==''||data.data ==undefined){
+						this.jug = false
+						return ;
+					}
+					this.jug = true
+					this.msg = data.data;
+				})
+				.catch(function(e) {
+					console.log("oops! error:", e.message);
+				});
+					
+			},
+			getValue(item){
+				this.value = item.title
+				this.jug = false
 			}
 		}
 	}
@@ -197,7 +227,7 @@
 					border: none;
 					left:10px;
 					top: 0px;
-					text-indent: 5px;
+					text-indent: 10px;
 				}
 				.searchbtn{
 					position: absolute;
@@ -221,6 +251,22 @@
 						margin: 0px 3px;
 						color: #9f9e9d;
 					}
+				}
+				.searchList{
+					list-style: none;
+					width: 386px;
+					/* height: 300px; */
+					line-height: 30px;
+					font-size: 12px;
+					padding: 1px 10px;
+					color: black;
+					border: 1px solid #009fe8;
+					border-top: none;
+					background: #fff;
+					z-index: 1000;
+					position: absolute;
+					top: 42px;
+					left: 11px;
 				}
 			}
 			.shopp{

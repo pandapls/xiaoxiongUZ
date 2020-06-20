@@ -130,7 +130,7 @@
     },
     {
         "name":"台式机",
-        "id":"taishiji",
+        "id":"tsj",
         "list":[
             {
                 "title":"推荐机型",
@@ -279,7 +279,7 @@
     },
     {
         "name":"一体机",
-        "id":"yitiji",
+        "id":"ytj",
         "list":[
             {
                 "title":"推荐机型",
@@ -380,7 +380,7 @@
     },
     {
         "name":"显示器",
-        "id":"xianshiqi",
+        "id":"xsq",
         "list":[
             {
                 "title":"品牌",
@@ -508,7 +508,7 @@
     },
     {
         "name":"手机",
-        "id":"shouji",
+        "id":"sj",
         "list":[
             {
                 "title":"推荐机型",
@@ -760,7 +760,7 @@
     },
     {
         "name":"配件服务",
-        "id":"peijianfuwu",
+        "id":"fwq",
         "list":[
             {
                 "title":"周边配件",

@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
   	jug:false,
   	goodslistPath:'default',
-  	saixuanPath:'default',
+  	saixuanPath:'moren',
   	data:[]
   },
   mutations: {
@@ -20,15 +20,15 @@ export default new Vuex.Store({
   	},
   	changGoodslsitPath(state,getPath){
   		state.goodslistPath = getPath
+  		
   	},
   	getData(state,res){
   		state.data = res.data
-
   	}
   },
   actions: {
   	getData(context){
-  		Axios.get('http://localhost:8000/'+context.state.saixuanPath)
+  		Axios.get('http://localhost:8222/'+context.state.saixuanPath)
   		.then((res)=>{
   			context.commit('getData',res)
   		})

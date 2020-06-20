@@ -39,8 +39,9 @@
 			golist(){
 //				console.log(this.idPath)
 //				this.$store.state.goodslistPath =this.idPath
-				this.$router.push('/goodslist')
+				
 				this.$store.commit('changGoodslsitPath',this.idPath)
+				this.$router.push('/goodslist')
 //				console.log(this.$store.state.goodslistPath)
 
 			}

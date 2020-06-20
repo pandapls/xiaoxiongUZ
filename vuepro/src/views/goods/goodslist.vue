@@ -57,7 +57,7 @@
 		},
 		watch:{
 			'$store.state.goodslistPath'(){
-				this.getHoneData("http://localhost:8000/"+this.$store.state.goodslistPath);
+				this.getHoneData("http://localhost:8222/"+this.$store.state.goodslistPath);
 			}
 		},
 		computed:{
@@ -163,7 +163,7 @@
 			
 		},
 		created() {
-			this.getHoneData("http://localhost:8000/"+this.$store.state.goodslistPath);
+			this.getHoneData("http://localhost:8222/"+this.$store.state.goodslistPath);
 		},
 		
 	}

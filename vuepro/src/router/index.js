@@ -40,6 +40,7 @@ Vue.use(VueRouter)
     name: 'Special',
     component: Special
   }
+ 
 ]
 
 const router = new VueRouter({

@@ -2,7 +2,6 @@ let express = require('express');
 let app = express();
 app.use('/data',express.static('data'))
 
-// app.use('./data/image',express.static('./data/image'));
 //设置允许跨域访问该服务器
 app.all('*',function(req,res,next){
     res.header('Access-Control-Allow-Origin','*');
@@ -131,6 +130,6 @@ app.get('/benyuetuijian',(req,res)=>{
      res.send(data);
  })
  
-app.listen(8000,()=>{
+app.listen(8222,()=>{
     console.log('PC访问成功')
 })

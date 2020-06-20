@@ -32,7 +32,7 @@
 			}
 		},
 		mounted(){
-			this.getHoneData("http://localhost:8000/special");
+			this.getHoneData("http://localhost:8222/special");
 		},
 		methods:{
 			getHoneData(path) {

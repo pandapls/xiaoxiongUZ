@@ -27,8 +27,8 @@
 			}
 		},
 		mounted: function() {
-			this.getHoneData("http://localhost:8000/moren");
-//			this.$store.dispatch('getData')
+			this.getHoneData("http://localhost:8222/moren");
+			this.$store.dispatch('getData')
 		
 		},
 		methods: {
@@ -42,26 +42,25 @@
 						console.log("oops! error:", e.message);
 					});
 			},
-			getId(item, zitem, index, zindex) {
-//				console.log(zitem)
+			getId(item, zitem, index, zindex) {	
+				this.$store.dispatch('getData')	
+				
 				if(zitem.id == undefined) {
 					this.$set(this.choose, index, zitem.title)
 					this.sxData[index].index = zindex
 					
 					return;
 				}
+				this.$store.state.saixuanPath = zitem.id
 				this.sxData = this.$store.state.data
 				this.choose = {}
-
 				this.$set(this.choose, index, zitem.title)
+				
+				
 				this.sxData[index].index = zindex
 				this.$store.commit('changGoodslsitPath', zitem.goodslist)
-				this.$store.dispatch('getData')
-				this.$store.state.saixuanPath = zitem.id
-			
-	
-//				
-//				this.getHoneData("http://localhost:8000/" + zitem.id);
+				
+				
 
 			},
 			delet(i) {
@@ -70,8 +69,9 @@
 				console.log(i)
 				if(i == 0) {
 					this.choose = {}
-					this.getHoneData("http://localhost:8000/moren")
+					this.getHoneData("http://localhost:8222/moren")
 					this.$store.commit('changGoodslsitPath', 'default')
+						this.$store.state.saixuanPath = 'moren'
 				}
 			},
 			loadmore(el) {
