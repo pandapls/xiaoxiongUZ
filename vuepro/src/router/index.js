@@ -10,8 +10,8 @@ import Medio from '../views/Mine/medio.vue'
 import Connection from '../views/Mine/connection.vue'
 import Cooperate from '../views/Mine/cooperate.vue'
 import Speak from '../views/Speak/speak.vue'
-import Login from '../views/login|register/Login.vue'
-import Register from '../views/login|register/Register.vue'
+import Login from '../views/loginRegister/Login.vue'
+import Register from '../views/loginRegister/Register.vue'
 import Shop from '../views/ShopC/shop.vue'
 
 
