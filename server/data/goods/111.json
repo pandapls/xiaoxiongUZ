@@ -1,0 +1,43 @@
+[
+    {
+        "title": "联想Lenovo E96X 台式机电脑【G4900/4G/128G SSD/核显/联想T2055 19.5英寸显示器】",
+        "yueprice": "85.00",
+        "ueprice": "68.00",
+        "cashpledge": "2370.00",
+        "shouqizj": "107.00",
+        "bzj": "0.00",
+        "id":1,
+        "num":1,
+        "Checkstate":true,
+        "peizhi": "G4900/4G/128G SSD/核显/联想T2055 19.5英寸显示器",
+        "imgSrc": "https://file-gateway.52rental.com/file-gateway/stable/da2794626f56484f82186916d4267515.jpg",
+        "img": [
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/4b104dc6154b4fb7b14fd93b9faae8b9.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6eb81a7591334a518378b7681a7bc3c5.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/fdd5338e89ad4a639193175a293ba21d.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/37f2b0864d184651834d496ecd3b247c.jpg"
+            }
+        ],
+        "bannerimg": [
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/da2794626f56484f82186916d4267515.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/da2794626f56484f82186916d4267515.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/da2794626f56484f82186916d4267515.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/da2794626f56484f82186916d4267515.jpg"
+            }
+        ]
+    }
+]

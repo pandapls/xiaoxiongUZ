@@ -6,7 +6,8 @@
             "dec":"强大力量，溢于言表",
             "des":"14* i3-8 4G 128G 核显",
             "price":"208",
-            "imgSrc":"http://localhost:8000/data/index/images/technology/img1.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/technology/img1.jpg"
         },
        "list":[
            {
@@ -14,35 +15,40 @@
                "dec":"全新",
                "des":"14* i5-8 8G 256 独显",
                "price":"220",
-               "imgSrc":"http://localhost:8000/data/index/images/technology/img2.jpg"
+               "id":111,
+               "imgSrc":"http://localhost:8222/data/index/images/technology/img2.jpg"
            },
            {
             "ztitle":"ThinkPad E480",
             "dec":"全新",
             "des":"14* i5-8 8G 256G 独显",
             "price":"188",
-            "imgSrc":"http://localhost:8000/data/index/images/technology/img3.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/technology/img3.jpg"
             },
            {
             "ztitle":"ThinkPad W530",
             "dec":"全新",
             "des":"14* i7-3 16G 240G 独显",
             "price":"138",
-            "imgSrc":"http://localhost:8000/data/index/images/technology/img4.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/technology/img4.jpg"
             },
             {
                 "ztitle":"Apple MacBook Pro 16",
                 "dec":"全新",
                 "des":"12.5* i5-5 4G 120G 核显",
                 "price":"728",
-                "imgSrc":"http://localhost:8000/data/index/images/technology/img5.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/technology/img5.jpg"
             },
             {
                 "ztitle":"小熊U机 S20",
                 "dec":"全新",
                 "des":"21* i5-9 8G 240G 独显",
                 "price":"148",
-                "imgSrc":"http://localhost:8000/data/index/images/technology/img6.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/technology/img6.jpg"
             }
        ]
    }

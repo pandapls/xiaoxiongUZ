@@ -3,18 +3,18 @@
         "title":"惠普HP LaserJetPro M203dw打印机【【预定】黑白激光打印机/幅面:A4】",
         "price":"29.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/dyj1.jpg",
-        "id":"dyj"
+        "id":111
     },
     {
         "title":"惠普HP ColourLaserJetPro M154nw打印机【【预定】彩色激光打印机/幅面:A4】",
         "price":"178.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/dyj2.jpg",
-        "id":"dyj"
+        "id":111
     },
     {
         "title":"惠普HP Laser MFP 138pnw锐系列打印机【【预定】黑白激光打印机/A4】",
         "price":"195.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/dyj3.jpg",
-        "id":"dyj"
+        "id":111
     }
 ]

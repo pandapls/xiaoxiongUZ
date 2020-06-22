@@ -3,7 +3,8 @@
 		<div class="headtop">
 			<div>您好，欢迎来到小熊U租</div>
 			<div class="hdrightbox">
-				<span class="login">请<a href="#">登录</a>/<a href="#">注册</a></span>|
+				<span class="login"  v-show="!$store.state.loginStatus">请<a href="#">登录</a>/<a href="#">注册</a></span>|
+				<span v-show="$store.state.loginStatus">{{username}}</span>
 				<span class="order">
 					<a href="#">我的订单</a>
 					<a href="#">帮助中心</a>
@@ -12,7 +13,7 @@
 				<span>售后热线：<span>400-678-5482</span></span>
 			</div>
 		</div>
-		<div class="headmid">
+		<div class="headmid" v-show="$store.state.headShow">
 			<div class="xxicon" @click="goIndex"></div>
 			<div class="headsearch">
 				<input type="text" class="searchinput" v-model="value" @keyup="OnSearchData"/>
@@ -32,24 +33,24 @@
 					<li  v-for="item,index in msg" @click="getValue(item)">{{item.title}}</li>
 				</ul>
 			</div>
-			<div class="shopp">
+			<div class="shopp" >
 				<i class="el-icon-shopping-cart-2"></i>
-				<button class="shopbtn">购物车</button>
+				<button class="shopbtn" @click="$router.push('/shop')">购物车</button>
 			</div>
 		</div>
-		<ul class="nav_1">
+		<ul class="nav_1" v-show="$store.state.headShow">
 			<li @mouseenter="show($event)" @mouseleave="hid($event)" @click="golist">
 				全部商品分类
 				<div class="nav_2" v-show="$store.state.jug">
 					<navitem v-for="item,index in list" :title="item.name" :idPath="item.id" :icon1='icons[index]' :data='item.list' :leftimg='item.imgSrcs'></navitem>
 				</div>
 			</li>
-			<li @click="$router.push('/index')">商场首页</a></li>
-			<li @click="$router.push('/special')">特价专区</a></li>
+			<li @click="$router.push('/index')" :class="{colorActive:$store.state.lihash=='#/index'}">商场首页</a></li>
+			<li @click="$router.push('/special')" :class="{colorActive:$store.state.lihash=='#/special'}">特价专区</a></li>
 			<li>小熊短租</li>
 			<li>资产管理</li>
-			<li @click="mine">关于我们</li>
-			<li @click="speak">客户评价</li>
+			<li @click="mine" :class="{colorActive:$store.state.lihash=='#/mine'}">关于我们</li>
+			<li @click="speak" :class="{colorActive:$store.state.lihash=='#/speak'}">客户评价</li>
 		</ul>
 	</div>
 </template>
@@ -68,20 +69,29 @@
 				list:[],
 				jug:false,
 				value:'',
-				msg:[]
+				msg:[],
+				userShow:true,
+				username:'',
+				lihash:''
 			}
 		},
-		mounted: function() {
+		created: function() {
+			
 			this.getHoneData("http://localhost:8222/public");
-//			console.log(window.location.hash)
-//			if(window.location.hash =='#/' ||window.location.hash =='#/index'){
-//					this.$store.state.jug = true
-					this.$store.commit('changeNav',window.location.hash)
-//			}
-			
-			
+			this.$store.commit('changeNav',window.location.hash)
+//			this.$store.state.lihash = window.location.hash
+//			console.log(this.$store.state.lihash)
 		},
-
+		beforeUpdate(){
+			this.$store.commit('changeHead',window.location.hash)
+			
+			if(JSON.parse(sessionStorage.getItem('username'))){
+  				this.userShow = JSON.parse(sessionStorage.getItem('usernamestatus'))
+    			this.username = JSON.parse(sessionStorage.getItem('username'))
+	    	}else{
+	    		this.userShow = this.$store.state.loginStatus
+	    	}
+		},
 		methods: {
 			getHoneData(path) {
 				fetch(path)
@@ -163,6 +173,9 @@
 		text-decoration: none;
 		color:#000000 ;
 	}
+	button{
+		outline: none;
+	}
 	.myhead{
 		/*padding: 0 30px;*/
 		background: #fff;
@@ -171,7 +184,7 @@
 			font-size: 12px;
 			display: flex;
 			justify-content: space-between;
-			padding: 10px 130px;
+			padding: 10px 130px!important;
 			.hdrightbox{
 				>span{
 					display: inline-block;
@@ -198,7 +211,7 @@
 			}
 		}
 		.headmid{
-			padding: 20px 130px;
+			padding: 20px 130px!important;
 			display: flex;
 			justify-content: space-between;
 			/*align-content: space-around;*/
@@ -275,7 +288,7 @@
 				i{
 					position: absolute;
 					top: 12px;
-					left: 5px;
+					left:20px!important;
 					color: #009fe8;
 					font-size: 14px;
 				}
@@ -283,18 +296,22 @@
 			.shopbtn{
 				font-size: 12px;
 				background: #fff;
-				padding: 10px 25px;
+				padding: 10px 40px!important;
 				border: 2px solid #009fe8;
 				border-radius: 20px;
+				outline: none;
 			}
 		}
 		.nav_1{
 			z-index: 20;
-			padding: 30px 130px;
+		padding: 30px 130px!important;
 			list-style: none;
 			display: flex;
 			font-size: 14px;
 			padding-bottom: 0;
+			.colorActive{
+				color: #009fe8;
+			}
 			>li{
 				/*border:1px solid #009fe8;*/
 				width: 150px;
@@ -314,14 +331,11 @@
 				background: #009fe8;
 				color: #fff;
 				position: relative;
-				
-				
 				.nav_2{
 					z-index: 20;
 					position:absolute;
-					top:40px;
+					top:40px!important;
 					left:0;
-					
 					.navlist{
 						width: 200px;
 						line-height: 40px;

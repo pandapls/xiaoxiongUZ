@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="cooperationBox">
-      <h1>合作伙伴</h1>
+      <h2>合作伙伴</h2>
       <ul>
         <li>
           <img src="../../../assets/images/indeximg/hz1.png" alt />
@@ -51,13 +51,17 @@ export default {};
 <style lang="less" scoped>
 .cooperationBox {
   margin-top: 20px;
-  h1 {
+  h2 {
+
     height: 45px;
     line-height: 45px;
   }
   ul {
     display: flex;
     flex-wrap: wrap;
+    li:hover {
+      box-shadow: 5px 5px 8px gainsboro;
+    }
     li {
       list-style: none;
       margin-right: 2px;

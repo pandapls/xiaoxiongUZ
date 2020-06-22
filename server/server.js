@@ -129,7 +129,14 @@ app.get('/benyuetuijian',(req,res)=>{
     let data =require('./data/goodslist/esjp.json')
      res.send(data);
  })
- 
+ app.get('/111',(req,res)=>{
+    let data =require('./data/goods/111.json')
+     res.send(data);
+ })
+ app.get('/222',(req,res)=>{
+    let data =require('./data/goods/222.json')
+     res.send(data);
+ })
 app.listen(8222,()=>{
     console.log('PC访问成功')
 })

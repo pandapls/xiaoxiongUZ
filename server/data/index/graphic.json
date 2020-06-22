@@ -6,7 +6,8 @@
             "dec":"极致性能，创造更多可能",
             "des":"14* i3-8 4G 128G 核显",
             "price":"258",
-            "imgSrc":"http://localhost:8000/data/index/images/graphic/img1.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/graphic/img1.jpg"
         },
        "list":[
            {
@@ -14,35 +15,40 @@
                "dec":"全新",
                "des":"15.6* i7-3 8G 500G 独显",
                "price":"165",
-               "imgSrc":"http://localhost:8000/data/index/images/graphic/img2.jpg"
+                "id":111,
+               "imgSrc":"http://localhost:8222/data/index/images/graphic/img2.jpg"
            },
            {
             "ztitle":"戴尔Dell 成铭3988",
             "dec":"全新",
             "des":"23.8* i7-9 16G 256G 独显",
             "price":"318",
-            "imgSrc":"http://localhost:8000/data/index/images/graphic/img3.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/graphic/img3.jpg"
             },
            {
             "ztitle":"ThinkPad T480",
             "dec":"全新",
             "des":"14* i5-8 8G 256G 独显",
             "price":"220",
-            "imgSrc":"http://localhost:8000/data/index/images/graphic/img4.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/graphic/img4.jpg"
             },
             {
                 "ztitle":"苹果Apple iMac 27",
                 "dec":"全新",
                 "des":"27* i5-9 8G 2T 独显",
                 "price":"998",
-                "imgSrc":"http://localhost:8000/data/index/images/graphic/img5.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/graphic/img5.jpg"
             },
             {
                 "ztitle":"戴尔Dell 3070MT",
                 "dec":"全新",
                 "des":"24* i7-9 16G 256G 核显",
                 "price":"348",
-                "imgSrc":"http://localhost:8000/data/index/images/graphic/img6.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/graphic/img6.jpg"
             }
        ]
    }

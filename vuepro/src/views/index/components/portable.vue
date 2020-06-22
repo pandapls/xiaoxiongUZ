@@ -1,9 +1,9 @@
 <template>
   <div>
     <div id="portable" class="itemlistBox" v-for="(itemb,indexb) in portableList" :key="indexb">
-      <h1>{{itemb.title}}</h1>
+      <h2>{{itemb.title}}</h2>
       <ul class="itemlist">
-        <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz">
+        <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz" @click="goDetail(itembz)">
           <router-link to>
             <p>
               <img :src="itembz.imgSrc" />
@@ -38,12 +38,17 @@ export default {
       fetch(path)
         .then(res => res.json())
         .then(data => {
-          console.log(data);
+//        console.log(data);
           this.portableList = data;
         })
         .catch(function(e) {
           console.log("oops! error:", e.message);
         });
+    },
+     goDetail(val){
+    	console.log(val.id)
+    	this.$router.push('/detail')
+    	this.$store.state.goodDedetail =  val.id
     }
   }
 };
@@ -52,15 +57,19 @@ export default {
 <style scoped lang="less">
 .itemlistBox {
   margin-top: 20px;
-  h1 {
+
+  h2 {
     height: 60px;
     line-height: 60px;
   }
   .itemlist {
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
   }
   ul {
     display: flex;
+    li:hover {
+      box-shadow: 5px 5px 8px gainsboro;
+    }
     li {
       padding: 25px 40px;
       line-height: 28px;

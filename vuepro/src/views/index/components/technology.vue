@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="technology" class="itemlistBox" v-for="(itemb,indexb) in technology" :key="indexb">
-      <h1>{{itemb.title}}</h1>
+      <h2>{{itemb.title}}</h2>
       <ul class="itemlist">
         <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz">
           <router-link to>
@@ -38,7 +38,7 @@ export default {
       fetch(path)
         .then(res => res.json())
         .then(data => {
-          console.log(data);
+//        console.log(data);
           this.technology = data;
         })
         .catch(function(e) {
@@ -52,15 +52,18 @@ export default {
 <style scoped lang="less">
 .itemlistBox {
   margin-top: 20px;
-  h1 {
+  h2 {
     height: 60px;
     line-height: 60px;
   }
   .itemlist {
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
   }
   ul {
     display: flex;
+    li:hover {
+      box-shadow: 5px 5px 8px gainsboro;
+    }
     li {
       padding: 25px 40px;
       line-height: 28px;

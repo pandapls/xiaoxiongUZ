@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="box clearfloat">
-				<div class="ctxitem clearfloat" v-for="item,index in currentPageData" :class="{clearMarginLeft:index % 4 == 0}">
+				<div class="ctxitem clearfloat" v-for="item,index in currentPageData" :class="{clearMarginLeft:index % 4 == 0}" @click="goDetail(item)">
 					<img :src="item.imgSrc"/>
 					<p class="title">{{item.title}}</p>
 					<p class="price"><span>￥</span>{{item.price}}<span>/月</span></p>
@@ -159,6 +159,10 @@
 			dprice(){
 				this.getCurrentPageData()
 				this.isActive = 1
+			},
+			goDetail(val){
+					this.$router.push('/detail')
+    		this.$store.state.goodDedetail =  val.id
 			}
 			
 		},

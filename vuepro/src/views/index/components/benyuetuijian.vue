@@ -1,9 +1,10 @@
 <template>
   <div>
     <div id="benyuetuijian" class="itemlistBox" v-for="(itemb,indexb) in BYTJlist" :key="indexb">
-      <h1>本月推荐</h1>
+
+      <h2>本月推荐</h2>
       <ul class="itemlist">
-        <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz">
+        <li v-for="(itembz,indexbz) in itemb.list" :key="indexbz" @click="goDetail(itembz)">
           <router-link to>
             <p class="commName">
               <span class="newtxtC">{{itembz.dec}}</span>
@@ -30,19 +31,26 @@ export default {
     };
   },
   mounted() {
-    this.getHoneData("http://localhost:8222/portable");
+
+    this.getHoneData("http://localhost:8222/benyuetuijian");
+
   },
   methods: {
     getHoneData(path) {
       fetch(path)
         .then(res => res.json())
         .then(data => {
-          console.log(data);
+//        console.log(data);
           this.BYTJlist = data;
         })
         .catch(function(e) {
           console.log("oops! error:", e.message);
         });
+    },
+    goDetail(val){
+    	console.log(val.id)
+    	this.$router.push('/detail')
+    	this.$store.state.goodDedetail =  val.id
     }
   }
 };
@@ -50,15 +58,20 @@ export default {
 
 <style scoped lang="less">
 .itemlistBox {
-  h1 {
+
+  h2 {
     height: 60px;
     line-height: 60px;
   }
   .itemlist {
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
   }
   ul {
     display: flex;
+
+    li:hover {
+      box-shadow: 0px 0px 8px gainsboro;
+    }
     li {
       padding: 25px 40px;
       line-height: 28px;

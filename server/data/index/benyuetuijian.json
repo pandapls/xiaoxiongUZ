@@ -7,35 +7,38 @@
                "dec":"全新",
                "des":"14* i3-8 4G 128G 核显",
                "price":"95",
-               "imgSrc":"http://localhost:8000/data/index/images/recommend/img1.jpg"
+               "id":111,
+               "imgSrc":"http://localhost:8222/data/index/images/recommend/img1.png"
            },
            {
             "ztitle":"惠普HP 348G7",
             "dec":"全新",
             "des":"14* i5-10 8G 256G 核显",
             "price":"138",
-            "imgSrc":"http://localhost:8000/data/index/images/recommend/img2.jpg"
+            "id":222,
+            "imgSrc":"http://localhost:8222/data/index/images/recommend/img2.png"
             },
            {
             "ztitle":"ThinkPad E480",
             "dec":"全新",
             "des":"14* i5-10 8G 256G 核显",
             "price":"95",
-            "imgSrc":"http://localhost:8000/data/index/images/recommend/img3.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/recommend/img3.png"
             },
             {
                 "ztitle":"ThinkPad L13",
                 "dec":"全新",
                 "des":"13.3* i3-10 8G 256G 核显",
                 "price":"95",
-                "imgSrc":"http://localhost:8000/data/index/images/recommend/img4.jpg"
+                "imgSrc":"http://localhost:8222/data/index/images/recommend/img4.png"
             },
             {
                 "ztitle":"戴尔Dell 成铭3980",
                 "dec":"全新",
                 "des":"21.5* i3-9 8G 256G 核显",
                 "price":"95",
-                "imgSrc":"http://localhost:8000/data/index/images/recommend/img5.jpg"
+                "imgSrc":"http://localhost:8222/data/index/images/recommend/img5.png"
             }
        ]
    }

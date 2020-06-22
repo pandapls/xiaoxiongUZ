@@ -3,42 +3,42 @@
         "title":"戴尔Dell 20寸次新显示器【20】",
         "price":"25.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq1.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"飞利浦Philips 20寸次新显示器【20】",
         "price":"26.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq2.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"戴尔Dell 21.5英寸次新显示器【21.5】",
         "price":"26.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq3.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"飞利浦Philips 21.5寸次新显示器【21.5】",
         "price":"29.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq5.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"飞利浦Philips 20寸次新显示器【20】",
         "price":"26.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq6.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"飞利浦Philips 20寸次新显示器【20】",
         "price":"26.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq7.jpg",
-        "id":"xsq"
+        "id":111
     },
     {
         "title":"飞利浦Philips 20寸次新显示器【20】",
         "price":"26.00",
         "imgSrc":"http://localhost:8222/data/goodslist/images/xsq1.jpg",
-        "id":"xsq"
+        "id":111
     }
 ]

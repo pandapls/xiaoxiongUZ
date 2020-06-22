@@ -7,42 +7,48 @@
                "dec":"全新",
                "des":"9.7* 16G",
                "price":"89",
-               "imgSrc":"http://localhost:8000/data/index/images/peripheral/img1.jpg"
+               "id":111,
+               "imgSrc":"http://localhost:8222/data/index/images/peripheral/img1.jpg"
            },
            {
             "ztitle":"苹果Apple iPad Air1",
             "dec":"全新",
             "des":"9.7* 16G",
             "price":"79",
-            "imgSrc":"http://localhost:8000/data/index/images/peripheral/img2.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/peripheral/img2.jpg"
             },
            {
             "ztitle":"戴尔Dell E2219HN",
             "dec":"全新",
             "des":"21.5* 1920×1080",
             "price":"30",
-            "imgSrc":"http://localhost:8000/data/index/images/peripheral/img3.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/peripheral/img3.jpg"
             },
             {
                 "ztitle":"戴尔Dell E2016H",
                 "dec":"全新",
                 "des":"19.5* 1600×900",
                 "price":"25",
-                "imgSrc":"http://localhost:8000/data/index/images/peripheral/img4.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/peripheral/img4.jpg"
             },
             {
                 "ztitle":"飞利浦Philips 203V5LSB2",
                 "dec":"全新",
                 "des":"20* 1600×900",
                 "price":"25",
-                "imgSrc":"http://localhost:8000/data/index/images/peripheral/img5.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/peripheral/img5.jpg"
             },
             {
                 "ztitle":"Apple iPhone XR",
                 "dec":"全新",
                 "des":"6.1* 128G白色",
                 "price":"491",
-                "imgSrc":"http://localhost:8000/data/index/images/peripheral/img6.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/peripheral/img6.jpg"
             }
        ]
    }

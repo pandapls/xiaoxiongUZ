@@ -194,6 +194,16 @@
 		</div>
 	</div>
 </template>
+<script type="text/javascript">
+	export default{
+		name:"speak",
+		mounted(){
+//			console.log(this.$store.state.lihash=='#/speak')
+			this.$store.state.lihash = window.location.hash
+//			console.log(window.location.hash,this.$store.state.lihash)
+		}
+	}
+</script>
 <style scoped lang="less">
 	.banner {
 		height: 540px;

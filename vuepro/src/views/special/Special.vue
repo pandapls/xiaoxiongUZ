@@ -32,6 +32,8 @@
 			}
 		},
 		mounted(){
+			this.$store.state.lihash = window.location.hash
+			
 			this.getHoneData("http://localhost:8222/special");
 		},
 		methods:{
@@ -39,7 +41,7 @@
 				fetch(path)
 					.then(res => res.json())
 					.then(data => {
-						console.log(data)
+//						console.log(data)
 						this.specialData =data
 
 					})

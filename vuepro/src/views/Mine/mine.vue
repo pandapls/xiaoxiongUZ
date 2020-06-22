@@ -182,6 +182,10 @@
 			cooperate(){
 				this.$router.push("/cooperate")
 			}
+		},
+		mounted(){
+			this.$store.state.lihash = window.location.hash
+//			console.log(window.location.hash,this.$store.state.lihash)
 		}
 	}
 </script>

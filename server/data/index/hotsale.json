@@ -7,42 +7,48 @@
                "dec":"全新",
                "des":"19.5* G4900 4G 128G 核显",
                "price":"85",
-               "imgSrc":"http://localhost:8000/data/index/images/hotsale/img1.jpg"
+               "id":111,
+               "imgSrc":"http://localhost:8222/data/index/images/hotsale/img1.jpg"
            },
            {
             "ztitle":"Thinkpad E490",
             "dec":"全新",
             "des":"14* i3-8 4G 128G 核显",
             "price":"95",
-            "imgSrc":"http://localhost:8000/data/index/images/hotsale/img2.jpg"
+            "id":222,
+            "imgSrc":"http://localhost:8222/data/index/images/hotsale/img2.jpg"
             },
            {
             "ztitle":"戴尔Dell 3020D",
             "dec":"全新",
             "des":"19.5* i3-4 4G 120G 核显",
             "price":"90",
-            "imgSrc":"http://localhost:8000/data/index/images/hotsale/img3.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/hotsale/img3.jpg"
             },
             {
                 "ztitle":"Apple Macbook Pro 15.4",
                 "dec":"全新",
                 "des":"15.4* i7-4 16G 256G 核显",
                 "price":"358",
-                "imgSrc":"http://localhost:8000/data/index/images/hotsale/img4.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/hotsale/img4.jpg"
             },
             {
                 "ztitle":"ThinkPad X240",
                 "dec":"全新",
                 "des":"12.5* i5-4 4G 120G 核显",
                 "price":"85",
-                "imgSrc":"http://localhost:8000/data/index/images/hotsale/img5.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/hotsale/img5.jpg"
             },
             {
                 "ztitle":"ThinkPad T430 14英寸笔记本电脑",
                 "dec":"全新",
                 "des":"14* i5-3 4G 120G 核显",
                 "price":"79",
-                "imgSrc":"http://localhost:8000/data/index/images/hotsale/img6.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/hotsale/img6.jpg"
             }
        ]
    }

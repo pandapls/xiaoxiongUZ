@@ -1,29 +1,7 @@
 <template>
   <div class="myhead">
-    <div class="headtop">
-      <div>您好，欢迎来到小熊U租</div>
-      <div class="hdrightbox">
-        <span class="login">
-          请
-          <a href="#">登录</a>/
-          <a href="#">注册</a>
-        </span>|
-        <span class="order">
-          <a href="#">我的订单</a>
-          <a href="#">帮助中心</a>
-        </span>|
-        <span>
-          售前热线：
-          <span>400-678-5432</span>
-        </span>
-        <span>
-          售后热线：
-          <span>400-678-5482</span>
-        </span>
-      </div>
-    </div>
     <div class="headmid">
-      <div class="xxicon"></div>
+      <div class="xxicon"  @click="goIndex"></div>
       <div class="headsearch">
         <input type="text" class="searchinput" />
         <button class="searchbtn">搜索</button>
@@ -57,7 +35,11 @@ export default {
   },
   mounted: function() {},
 
-  methods: {}
+  methods: {
+  	goIndex(){
+				this.$router.push('/index')
+			}
+  }
 };
 </script>
 

@@ -10,9 +10,19 @@ import Medio from '../views/Mine/medio.vue'
 import Connection from '../views/Mine/connection.vue'
 import Cooperate from '../views/Mine/cooperate.vue'
 import Speak from '../views/Speak/speak.vue'
+
 import Goodslist from '../views/goods/goodslist.vue'
+import Detail from '../views/goods/detail.vue'
 import Special from '../views/special/Special.vue'
 import store from '../store/index.js'
+
+import Login from '../views/loginRegister/Login.vue'
+import Register from '../views/loginRegister/Register.vue'
+import Shop from '../views/ShopC/shop.vue'
+import Comfirm from '../views/ShopC/comfirm.vue'
+
+
+
 
 Vue.use(VueRouter)
 
@@ -27,6 +37,25 @@ const routes = [{
 		component: Index
 	},
 	{
+		path: '/login',
+		name: 'Login',
+		component: Login
+	},
+	{
+		path: '/register',
+		name: 'Register',
+		component: Register
+	},
+	{
+		path: '/shop',
+		name: 'Shop',
+		component: Shop,
+		meta: {
+			reqireAuth: true
+		}
+	},
+
+	{
 		path: '/mine',
 		name: 'Mine',
 		component: Mine
@@ -35,7 +64,7 @@ const routes = [{
 		name: 'MyIndex',
 		component: MyIndex
 	},
-	{
+	 {
 		path: '/address',
 		name: 'Address',
 		component: Address
@@ -78,6 +107,35 @@ const routes = [{
 		path: '/special',
 		name: 'Special',
 		component: Special
+	}, {
+		path: '/consult',
+		name: 'Consult',
+		component: Consult
+	}, {
+		path: '/medio',
+		name: 'Medio',
+		component: Medio
+	}, {
+		path: '/connection',
+		name: 'Connection',
+		component: Connection
+	}, {
+		path: '/cooperate',
+		name: 'Cooperate',
+		component: Cooperate
+	}, {
+		path: '/speak',
+		name: 'Speak',
+		component: Speak
+	},{
+		path: '/comfirm',
+		name: 'comfirm',
+		component: Comfirm
+	},
+	{
+		path: '/detail',
+		name: 'Detail',
+		component: Detail
 	}
 ]
 
@@ -91,7 +149,31 @@ router.beforeEach((to, from, next) => {
 		store.state.jug = true
 		next()
 	} else {
+		
 		store.state.jug = false
+		
+	}
+
+	if(to.meta.reqireAuth){
+		if(JSON.parse(sessionStorage.getItem('username'))){
+			next()
+		}else{
+			console.log(1)
+			store.state.histroyPath = to.fullPath
+			next({path:'/login'})
+		}
+	}else{
+		next()
+	}
+	if(to.fullPath == "/login"){	
+		if(JSON.parse(sessionStorage.getItem('username'))){
+			
+			next({
+				path:from.fullPath
+			})
+		}else{
+			next()
+		}
 	}
 
 	next()

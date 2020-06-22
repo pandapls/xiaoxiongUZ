@@ -6,7 +6,8 @@
             "dec":"卓越性能，办公利器",
             "des":"14* i3-8 4G 128G 核显",
             "price":"338",
-            "imgSrc":"http://localhost:8000/data/index/images/administration/img1.jpg"
+            "id":111,
+            "imgSrc":"http://localhost:8222/data/index/images/administration/img1.jpg"
         },
         "list":[
             {
@@ -14,35 +15,40 @@
                 "dec":"全新",
                 "des":"13.3* i3-10 8G 256G 核显",
                 "price":"138",
-                "imgSrc":"http://localhost:8000/data/index/images/administration/img2.jpg"
+                "id":111,
+                "imgSrc":"http://localhost:8222/data/index/images/administration/img2.jpg"
             },
             {
              "ztitle":"惠普HP 288G4",
              "dec":"全新",
              "des":"21.5* i5-10 8G 256G 核显",
              "price":"138",
-             "imgSrc":"http://localhost:8000/data/index/images/administration/img3.jpg"
+             "id":111,
+             "imgSrc":"http://localhost:8222/data/index/images/administration/img3.jpg"
              },
             {
              "ztitle":"戴尔Dell 3020D",
              "dec":"全新",
              "des":"19.5* i3-4 4G 120G 核显",
              "price":"95",
-             "imgSrc":"http://localhost:8000/data/index/images/administration/img4.jpg"
+             "id":111,
+             "imgSrc":"http://localhost:8222/data/index/images/administration/img4.jpg"
              },
              {
                  "ztitle":"联想Lenovo E96X",
                  "dec":"全新",
                  "des":"19.5* G4900 4G 128G 核显",
                  "price":"85",
-                 "imgSrc":"http://localhost:8000/data/index/images/administration/img5.jpg"
+                 "id":111,
+                 "imgSrc":"http://localhost:8222/data/index/images/administration/img5.jpg"
              },
              {
                  "ztitle":"ThinkPad T440",
                  "dec":"全新",
                  "des":"14* i5-4 4G 120G 核显",
                  "price":"98",
-                 "imgSrc":"http://localhost:8000/data/index/images/administration/img6.jpg"
+                 "id":111,
+                 "imgSrc":"http://localhost:8222/data/index/images/administration/img6.jpg"
              }
         ]
     }

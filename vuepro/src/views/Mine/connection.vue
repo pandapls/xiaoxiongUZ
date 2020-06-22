@@ -1,82 +1,80 @@
 <template>
-	<div class="mine">
-		<div class="nav">
-			<a href="../index/index.vue">首页</a>
-			>
-			<span>关于我们</span>
-		</div>
-		<div class="section">
-			<div class="leftBox">
-				<ul>
-					<li>
-						<h5>关于我们</h5>
-						<p @click="myIndex">企业概况</p>
-						<p @click="address">公司地址</p>
-						<p @click="server">服务网点</p>
-					</li>
-					<li>
-						<h5>新闻中心</h5>
-						<p @click="consult">企业咨询</p>
-						<p @click="medio">媒体报道</p>
-					</li>
-					<li>
-						<h5>品牌合作</h5>
-						<p id="active" @click="connection">联系我们</p>
-						<p @click="cooperate">商业合作</p>
-					</li>
-				</ul>
-			</div>
-			<div class="rightBox">
-				<p class="rightTittle">
-					联系我们
-				</p>
-				<div class="boxContent">
-					<ul class="userEmail">
-						<li>
-							<div class="imguser"></div>
-							<p class="connecuser">联系人</p>
-							<p>林先生</p>
-						</li>
-						<li>
-							<div class="imgemail"></div>
-							<p class="connecuser">邮箱</p>
-							<p>lxBDS@lxrental.com</p>
-						</li>
-					</ul>
-					<div class="imgcontact">
-						<img src="../../assets/aboutUs/bg_contactUs.png" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="mine">
+    <div class="nav">
+      <a href="../index/index.vue">首页</a>
+      >
+      <span>关于我们</span>
+    </div>
+    <div class="section">
+      <div class="leftBox">
+        <ul>
+          <li>
+            <h5>关于我们</h5>
+            <p @click="myIndex">企业概况</p>
+            <p @click="address">公司地址</p>
+            <p @click="server">服务网点</p>
+          </li>
+          <li>
+            <h5>新闻中心</h5>
+            <p @click="consult">企业咨询</p>
+            <p @click="medio">媒体报道</p>
+          </li>
+          <li>
+            <h5>品牌合作</h5>
+            <p id="active" @click="connection">联系我们</p>
+            <p @click="cooperate">商业合作</p>
+          </li>
+        </ul>
+      </div>
+      <div class="rightBox">
+        <p class="rightTittle">联系我们</p>
+        <div class="boxContent">
+          <ul class="userEmail">
+            <li>
+              <div class="imguser"></div>
+              <p class="connecuser">联系人</p>
+              <p>林先生</p>
+            </li>
+            <li>
+              <div class="imgemail"></div>
+              <p class="connecuser">邮箱</p>
+              <p>lxBDS@lxrental.com</p>
+            </li>
+          </ul>
+          <div class="imgcontact">
+            <img src="../../assets/aboutUs/bg_contactUs.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
-	export default {
-		methods: {
-			myIndex() {
-				this.$router.push("/myindex")
-			},
-			address() {
-				this.$router.push("/address")
-			},
-			server() {
-				this.$router.push("/server")
-			},
-			consult() {
-				this.$router.push("/consult")
-			},
-			medio() {
-				this.$router.push("/medio")
-			},
-			connection() {
-				this.$router.push("/connection")
-			},
-			cooperate() {
-				this.$router.push("/cooperate")
-			}
-		}
-	}
+export default {
+  methods: {
+    myIndex() {
+      this.$router.push("/myindex");
+    },
+    address() {
+      this.$router.push("/address");
+    },
+    server() {
+      this.$router.push("/server");
+    },
+    consult() {
+      this.$router.push("/consult");
+    },
+    medio() {
+      this.$router.push("/medio");
+    },
+    connection() {
+      this.$router.push("/connection");
+    },
+    cooperate() {
+      this.$router.push("/cooperate");
+    }
+  }
+};
 </script>
 <style scoped lang="less">
 .mine{
@@ -201,4 +199,5 @@
 	.hide {
 		display: none;
 	}
+
 </style>

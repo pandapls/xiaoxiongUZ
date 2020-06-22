@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Thinkpad E490 14英寸笔记本电脑【I3-8145U/4G/128G SSD/核显/14/HD/WIN10家庭版】",
+        "yueprice": "117.00",
+        "ueprice": "68.00",
+        "cashpledge": "2824.00",
+        "shouqizj": "117.00",
+        "bzj": "0.00",
+        "id":2,
+        "num":1,
+        "Checkstate":true,
+        "peizhi": "I3-8145U/4G/128G SSD/核显/14/HD/WIN10家庭版",
+        "imgSrc": "https://file-gateway.52rental.com/file-gateway/stable/a9e3558e51c446c3bf69480bcb78f11e.jpg",
+        "img": [
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6d2ba0ad097f4e248d920889e22ced9d.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6eb81a7591334a518378b7681a7bc3c5.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6d2ba0ad097f4e248d920889e22ced9d.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6d2ba0ad097f4e248d920889e22ced9d.jpg"
+            }
+        ],
+        "bannerimg": [
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/4274689ce9d9415fae7ea50029d4057f.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/6d2ba0ad097f4e248d920889e22ced9d.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/1af806a57cbf4f8e983e8a94107ef00a.jpg"
+            },
+            {
+                "imgUrl": "https://file-gateway.52rental.com/file-gateway/stable/1af806a57cbf4f8e983e8a94107ef00a.jpg"
+            }
+        ]
+    }
+]
