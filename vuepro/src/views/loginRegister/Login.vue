@@ -220,6 +220,7 @@ export default {
     this.identifyCode = "";
     this.makeCode(this.identifyCodes, 4);
     this.$store.commit('changeHead',window.location.hash)
+    console.log(this.$store.state.histroyPath )
   },
   methods: {
   	goIndex(){
@@ -308,6 +309,7 @@ export default {
   .fr {
     float: right;
   }
+  
   .Uzuheader {
     background: #fff;
     padding: 10px 130px;
@@ -495,5 +497,7 @@ export default {
     }
   }
 }
+
+
 </style>>
 

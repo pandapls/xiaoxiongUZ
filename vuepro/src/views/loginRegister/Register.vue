@@ -1,7 +1,7 @@
 <template>
   <div class="login-Box">
     <header class="Uzuheader">
-      <div class="UzuImg"></div>
+      <div class="UzuImg" @click="goIndex"></div>
       <ul class="hotLine">
         <li>
           售前热线:
@@ -173,6 +173,9 @@ export default {
     this.makeCode(this.identifyCodes, 4);
   },
   methods: {
+  	goIndex(){
+				this.$router.push('/index')
+			},
     // 获取验证码
     getPhCode() {
       let ipstr = /^1(3|5|7|8)\d{9}$/;

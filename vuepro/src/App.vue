@@ -34,4 +34,12 @@ body {
 li{
 	cursor:  pointer;
 }
+.mouse-cover-canvas{
+	top: 400px!important;
+	height: 400px!important;
+	width: 400px!important;
+}
+.el-form-item__error{
+  	left: 27px!important;
+  }
 </style>

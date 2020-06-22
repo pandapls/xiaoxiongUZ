@@ -66,7 +66,7 @@ export default {
       box-shadow: 5px 5px 8px gainsboro;
     }
     li {
-      padding: 25px 40px;
+      padding: 25px 30px;
       line-height: 28px;
       border-radius: 5px;
       background: #fff;

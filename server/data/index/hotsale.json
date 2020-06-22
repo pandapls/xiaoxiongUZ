@@ -41,14 +41,6 @@
                 "price":"85",
                 "id":111,
                 "imgSrc":"http://localhost:8222/data/index/images/hotsale/img5.jpg"
-            },
-            {
-                "ztitle":"ThinkPad T430 14英寸笔记本电脑",
-                "dec":"全新",
-                "des":"14* i5-3 4G 120G 核显",
-                "price":"79",
-                "id":111,
-                "imgSrc":"http://localhost:8222/data/index/images/hotsale/img6.jpg"
             }
        ]
    }

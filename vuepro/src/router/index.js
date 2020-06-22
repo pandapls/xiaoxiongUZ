@@ -153,13 +153,12 @@ router.beforeEach((to, from, next) => {
 		store.state.jug = false
 		
 	}
-
+	console.log(from.fullPath)
+	store.state.histroyPath = from.fullPath
 	if(to.meta.reqireAuth){
 		if(JSON.parse(sessionStorage.getItem('username'))){
 			next()
 		}else{
-			console.log(1)
-			store.state.histroyPath = to.fullPath
 			next({path:'/login'})
 		}
 	}else{

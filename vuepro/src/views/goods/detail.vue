@@ -6,7 +6,7 @@
 					<div class="proBox">
 						<el-carousel height="534px">
 							<el-carousel-item v-for="item,index in list.bannerimg">
-								<img :src="item.imgUrl" />
+								<PicZoom :url="item.imgUrl" :scale="2" />
 							</el-carousel-item>
 							<!--<el-carousel-item>
 								<img src="https://file-gateway.52rental.com/file-gateway/stable/24aead4d4c274c749a59214d75ebaee0.jpg" />
@@ -232,6 +232,7 @@
 </template>
 
 <script>
+	import PicZoom from 'vue-piczoom'
 	export default {
 
 		data() {
@@ -248,6 +249,10 @@
 			list:[]
 			}
 		},
+		components:{
+			PicZoom
+
+		},
 		mounted() {
 			this.getHoneData("http://localhost:8222/"+this.$store.state.goodDedetail);
 			this.handleChange(1);
@@ -255,7 +260,7 @@
 		},
 		methods: {
 			handleChange(value) {
-			console.log(this.list)
+//			console.log(this.list)
 				this.zongJia = (value * parseInt(this.list.cashpledge)).toFixed(2);
 				this.list.num = value
 //				console.log(this.list.num )
