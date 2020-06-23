@@ -121,7 +121,7 @@
 		data() {
 			return {
 				shopList: [],
-				value1: "",
+				value1: new Date(),
 				num: 1,
 				activeName: "second",
 				pickerOptions: {

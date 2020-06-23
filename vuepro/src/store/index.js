@@ -42,6 +42,7 @@ export default new Vuex.Store({
   	getLoginNumber(state,phone){
 		sessionStorage.setItem("usernamestatus","true");
   		 sessionStorage.setItem("username",phone);
+  		 state.loginStatus = true
   	},
   	getHistroyPath(state,path){
   		state.histroyPath = path

@@ -244,7 +244,7 @@
 				},
 				activeName: "first",
 				zongJia: 0,
-				value1: "",
+				value1: new Date(),
 				num: 1,
 			list:[]
 			}

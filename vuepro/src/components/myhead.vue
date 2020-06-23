@@ -3,7 +3,7 @@
 		<div class="headtop">
 			<div>您好，欢迎来到小熊U租</div>
 			<div class="hdrightbox">
-				<span class="login"  v-show="!$store.state.loginStatus">请<a href="#">登录</a>/<a href="#">注册</a></span>|
+				<span class="login"  v-show="!$store.state.loginStatus">请<a href="#/login">登录</a>/<a href="#">注册</a></span>|
 				<span v-show="$store.state.loginStatus">{{username}}</span>
 				<span class="order">
 					<a href="#">我的订单</a>
